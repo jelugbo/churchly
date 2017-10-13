@@ -1,0 +1,14 @@
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(2,0,1)REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(1,0,)
+
+
+
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(1,0,))
+
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(1,2,1)
+
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(2,2,1)
+
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(1,2,1)
+
+REPLACE INTO menu_roles(menu_id,role_id,access) VALUES(2,2,)
+

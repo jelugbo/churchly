@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" defaultIdMethod="native" defaultPhpNamingMethod="underscore">
+  <table name="about" idMethod="native" phpName="About">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="about" phpName="About" type="LONGVARCHAR"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="about_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="audit_log" idMethod="native" phpName="AuditLog">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="timestamp" phpName="Timestamp" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true" defaultValue="0"/>
+    <column name="message" phpName="Message" type="LONGVARCHAR" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="bible_books" idMethod="native" phpName="BibleBooks">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="abbr" phpName="Abbr" type="VARCHAR" size="10" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="bible_chapters" idMethod="native" phpName="BibleChapters">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="book_id" phpName="BookId" type="INTEGER" required="true"/>
+    <column name="chapter" phpName="Chapter" type="INTEGER" required="true"/>
+    <foreign-key foreignTable="bible_books" name="bible_chapters_ibfk_1">
+      <reference local="book_id" foreign="value"/>
+    </foreign-key>
+    <index name="book_id">
+      <index-column name="book_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="bible_verses" idMethod="native" phpName="BibleVerses">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="chapter_id" phpName="ChapterId" type="INTEGER" required="true"/>
+    <column name="verse" phpName="Verse" type="INTEGER" required="true"/>
+    <foreign-key foreignTable="bible_chapters" name="bible_verses_ibfk_1">
+      <reference local="chapter_id" foreign="value"/>
+    </foreign-key>
+    <index name="chapter_id">
+      <index-column name="chapter_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="church" idMethod="native" phpName="Church">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="200"/>
+    <column name="short_name" phpName="ShortName" type="VARCHAR" size="20"/>
+    <column name="logo" phpName="Logo" type="VARCHAR" size="250"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="devotions" idMethod="native" phpName="Devotions">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="devotion_date" phpName="DevotionDate" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <column name="topic" phpName="Topic" type="VARCHAR" size="250"/>
+    <column name="verse" phpName="Verse" type="VARCHAR" size="250"/>
+    <column name="content" phpName="Content" type="LONGVARCHAR" required="true"/>
+    <column name="has_media" phpName="HasMedia" type="BOOLEAN" size="1" required="true"/>
+    <column name="type" phpName="Type" type="INTEGER" required="true"/>
+    <column name="url" phpName="Url" type="VARCHAR" size="200"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="devotions_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="media_type" name="devotions_ibfk_2">
+      <reference local="type" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="devotions_ibfk_2">
+      <index-column name="type"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="econnect" idMethod="native" phpName="Econnect">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="200" required="true"/>
+    <column name="gender_category" phpName="GenderCategory" type="VARCHAR" size="100"/>
+    <column name="age_category" phpName="AgeCategory" type="VARCHAR" size="100"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="econnect_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="events" idMethod="native" phpName="Events">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="200"/>
+    <column name="venue" phpName="Venue" type="LONGVARCHAR"/>
+    <column name="start_date" phpName="StartDate" type="TIMESTAMP"/>
+    <column name="start_time" phpName="StartTime" type="VARCHAR" size="50"/>
+    <column name="end_date" phpName="EndDate" type="TIMESTAMP"/>
+    <column name="end_time" phpName="EndTime" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="events_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="facebook" idMethod="native" phpName="Facebook">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="page_id" phpName="PageId" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="facebook_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give" idMethod="native" phpName="Give">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="profile_id" phpName="ProfileId" type="INTEGER" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="method_id" phpName="MethodId" type="INTEGER" required="true"/>
+    <column name="currency" phpName="Currency" type="VARCHAR" size="20" required="true"/>
+    <column name="total" phpName="Total" type="DECIMAL" size="10" scale="2" required="true"/>
+    <column name="txn_ref" phpName="TxnRef" type="VARCHAR" size="200"/>
+    <column name="txn_status" phpName="TxnStatus" type="VARCHAR" size="200"/>
+    <column name="description" phpName="Description" type="VARCHAR" size="250" required="true"/>
+    <column name="card_id" phpName="CardId" type="VARCHAR" size="20"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="give_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="user_profile" name="give_ibfk_2">
+      <reference local="profile_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="give_parish_methods" name="give_ibfk_3">
+      <reference local="method_id" foreign="value"/>
+    </foreign-key>
+    <index name="give_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="give_ibfk_2">
+      <index-column name="profile_id"/>
+    </index>
+    <index name="give_ibfk_3">
+      <index-column name="method_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_currency" idMethod="native" phpName="GiveCurrency">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="code" phpName="Code" type="VARCHAR" size="20" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_methods" idMethod="native" phpName="GiveMethods">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="code" phpName="Code" type="VARCHAR" size="50" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="100" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_parish_currency" idMethod="native" phpName="GiveParishCurrency">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="currency_id" phpName="CurrencyId" type="INTEGER" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="give_parish_currency_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="give_currency" name="give_parish_currency_ibfk_2">
+      <reference local="currency_id" foreign="value"/>
+    </foreign-key>
+    <index name="give_parish_currency_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="give_parish_currency_ibfk_2">
+      <index-column name="currency_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_parish_methods" idMethod="native" phpName="GiveParishMethods">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="method_id" phpName="MethodId" type="INTEGER" required="true"/>
+    <column name="settings" phpName="Settings" type="VARCHAR" size="250" required="true"/>
+    <column name="enabled" phpName="Enabled" type="TINYINT" required="true" defaultValue="1"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="give_parish_methods_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="give_methods" name="give_parish_methods_ibfk_3">
+      <reference local="method_id" foreign="value"/>
+    </foreign-key>
+    <index name="give_parish_methods_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="give_parish_methods_ibfk_3">
+      <index-column name="method_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_split" idMethod="native" phpName="GiveSplit">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="give_id" phpName="GiveId" type="INTEGER" required="true"/>
+    <column name="item" phpName="Item" type="VARCHAR" size="200" required="true"/>
+    <column name="amount" phpName="Amount" type="DECIMAL" size="10" scale="2" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="give" name="give_split_ibfk_1">
+      <reference local="give_id" foreign="value"/>
+    </foreign-key>
+    <index name="give_split_ibfk_1">
+      <index-column name="give_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="give_type" idMethod="native" phpName="GiveType">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="code" phpName="Code" type="VARCHAR" size="50" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="200" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="give_type_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="give_type_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="job_queue" idMethod="native" phpName="JobQueue">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="letter_id" phpName="LetterId" type="INTEGER" required="true"/>
+    <column name="recipients_id" phpName="RecipientsId" type="INTEGER" required="true"/>
+    <column name="job_type" phpName="JobType" type="VARCHAR" size="50" required="true"/>
+    <column name="scheduled_time" phpName="ScheduledTime" type="VARCHAR" size="50" required="true"/>
+    <column name="status" phpName="Status" type="VARCHAR" size="100"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="letters" name="job_queue_ibfk_1">
+      <reference local="letter_id" foreign="value"/>
+    </foreign-key>
+    <index name="job_queue_ibfk_1">
+      <index-column name="letter_id"/>
+    </index>
+    <index name="job_queue_ibfk_2">
+      <index-column name="recipients_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="letter_queue" idMethod="native" phpName="LetterQueue">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="job_id" phpName="JobId" type="INTEGER" required="true"/>
+    <column name="subject" phpName="Subject" type="VARCHAR" size="200" required="true"/>
+    <column name="message" phpName="Message" type="LONGVARCHAR" required="true"/>
+    <column name="from_name" phpName="FromName" type="VARCHAR" size="100" required="true"/>
+    <column name="from_email" phpName="FromEmail" type="VARCHAR" size="100" required="true"/>
+    <column name="to_name" phpName="ToName" type="VARCHAR" size="200" required="true"/>
+    <column name="to_email" phpName="ToEmail" type="VARCHAR" size="100" required="true"/>
+    <column name="count" phpName="Count" type="INTEGER" defaultValue="0"/>
+    <column name="last_status_msg" phpName="LastStatusMsg" type="VARCHAR" size="200"/>
+    <column name="status" phpName="Status" type="VARCHAR" size="100"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="job_queue" name="letter_queue_ibfk_1">
+      <reference local="job_id" foreign="value"/>
+    </foreign-key>
+    <index name="letter_queue_ibfk_1">
+      <index-column name="job_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="letter_type" idMethod="native" phpName="LetterType">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="100" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="letters" idMethod="native" phpName="Letters">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="type_id" phpName="TypeId" type="INTEGER" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="250" required="true"/>
+    <column name="sender_name" phpName="SenderName" type="VARCHAR" size="100" required="true"/>
+    <column name="sender_email" phpName="SenderEmail" type="VARCHAR" size="100" required="true"/>
+    <column name="subject" phpName="Subject" type="VARCHAR" size="250" required="true"/>
+    <column name="letter" phpName="Letter" type="LONGVARCHAR" required="true"/>
+    <column name="published" phpName="Published" type="BOOLEAN" size="1" required="true" defaultValue="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="letters_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="letter_type" name="letters_ibfk_2">
+      <reference local="type_id" foreign="value"/>
+    </foreign-key>
+    <index name="letters_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="letters_ibfk_2">
+      <index-column name="type_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="live_stream" idMethod="native" phpName="LiveStream">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="url" phpName="Url" type="VARCHAR" size="250" required="true"/>
+    <foreign-key foreignTable="parish" name="live_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="live_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="media" idMethod="native" phpName="Media">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="title" phpName="Title" type="VARCHAR" size="200" required="true"/>
+    <column name="category" phpName="Category" type="INTEGER" required="true"/>
+    <column name="type" phpName="Type" type="INTEGER" required="true"/>
+    <column name="url" phpName="Url" type="VARCHAR" size="200"/>
+    <column name="publish_on" phpName="PublishOn" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="media_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="media_categories" name="media_ibfk_2">
+      <reference local="category" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="media_type" name="media_ibfk_3">
+      <reference local="type" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="category">
+      <index-column name="category"/>
+    </index>
+    <index name="media_ibfk_3">
+      <index-column name="type"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="media_categories" idMethod="native" phpName="MediaCategories">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="media_type" idMethod="native" phpName="MediaType">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="Name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="menu" idMethod="native" phpName="Menu">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <column name="link" phpName="Link" type="VARCHAR" size="50"/>
+    <column name="parent" phpName="Parent" type="INTEGER" required="true" defaultValue="0"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="menu_roles" idMethod="native" phpName="MenuRoles">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="role_id" phpName="RoleId" type="INTEGER" required="true"/>
+    <column name="menu_id" phpName="MenuId" type="INTEGER" required="true"/>
+    <column name="access" phpName="Access" type="TINYINT" required="true" defaultValue="0"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="menu" name="menu_roles_ibfk_1">
+      <reference local="menu_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="roles" name="menu_roles_ibfk_2">
+      <reference local="role_id" foreign="value"/>
+    </foreign-key>
+    <index name="menu_roles_ibfk_1">
+      <index-column name="menu_id"/>
+    </index>
+    <index name="menu_roles_ibfk_2">
+      <index-column name="role_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="messages" idMethod="native" phpName="Messages">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="title" phpName="Title" type="VARCHAR" size="200"/>
+    <column name="message" phpName="Message" type="LONGVARCHAR"/>
+    <column name="payload" phpName="Payload" type="LONGVARCHAR"/>
+    <column name="group_id" phpName="GroupId" type="INTEGER" required="true"/>
+    <column name="scheduled_time" phpName="ScheduledTime" type="TIMESTAMP" defaultExpr="CURRENT_TIMESTAMP"/>
+    <column name="status" phpName="Status" type="TINYINT"/>
+    <column name="last_run" phpName="LastRun" type="TIMESTAMP"/>
+    <column name="last_device_id" phpName="LastDeviceId" type="INTEGER"/>
+    <column name="locked_out" phpName="LockedOut" type="TINYINT"/>
+    <column name="locked_out_time" phpName="LockedOutTime" type="TIMESTAMP"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="econnect" name="messages_ibfk_2">
+      <reference local="group_id" foreign="value"/>
+    </foreign-key>
+    <index name="group_id">
+      <index-column name="group_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="ministry" idMethod="native" phpName="Ministry">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="100"/>
+    <column name="contact_person" phpName="ContactPerson" type="VARCHAR" size="100"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="50"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="ministry_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="parish" idMethod="native" phpName="Parish">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="church_id" phpName="ChurchId" type="INTEGER" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="100"/>
+    <column name="address" phpName="Address" type="VARCHAR" size="200"/>
+    <column name="city" phpName="City" type="VARCHAR" size="50"/>
+    <column name="state" phpName="State" type="VARCHAR" size="50"/>
+    <column name="zip" phpName="Zip" type="VARCHAR" size="10"/>
+    <column name="lat" phpName="Lat" type="VARCHAR" size="50" required="true" defaultValue="0"/>
+    <column name="lng" phpName="Lng" type="VARCHAR" size="50" required="true" defaultValue="0"/>
+    <column name="formatted_address" phpName="FormattedAddress" type="VARCHAR" size="250"/>
+    <column name="country" phpName="Country" type="VARCHAR" size="50" defaultValue="USA"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="20"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="logo" phpName="Logo" type="VARCHAR" size="250"/>
+    <column name="overseer" phpName="Overseer" type="VARCHAR" size="250" required="true"/>
+    <column name="enabled" phpName="Enabled" type="BOOLEAN" size="1" required="true" defaultValue="false"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="church" name="parish_ibfk_1">
+      <reference local="church_id" foreign="value"/>
+    </foreign-key>
+    <index name="church_id">
+      <index-column name="church_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="parish_segment" idMethod="native" phpName="ParishSegment">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="segment_id" phpName="SegmentId" type="INTEGER" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="parish_segment_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="segment" name="parish_segment_ibfk_2">
+      <reference local="segment_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="segment_id">
+      <index-column name="segment_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="password_reset" idMethod="native" phpName="PasswordReset">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="username" phpName="Username" type="VARCHAR" size="20" required="true"/>
+    <column name="token" phpName="Token" type="VARCHAR" size="20" required="true"/>
+    <column name="attempts" phpName="Attempts" type="INTEGER" required="true" defaultValue="0"/>
+    <column name="timestamp" phpName="Timestamp" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="pastor" idMethod="native" phpName="Pastor">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="fname" phpName="Fname" type="VARCHAR" size="50"/>
+    <column name="lname" phpName="Lname" type="VARCHAR" size="50"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="50"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="comment" phpName="Comment" type="LONGVARCHAR"/>
+    <column name="contact_date" phpName="ContactDate" type="VARCHAR" size="50"/>
+    <column name="contact_time" phpName="ContactTime" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="user_profile" name="pastor_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="user_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="prayer" idMethod="native" phpName="Prayer">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="full_name" phpName="FullName" type="VARCHAR" size="200"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="prayer" phpName="Prayer" type="LONGVARCHAR"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="user_profile" name="prayer_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="user_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="push_register" idMethod="native" phpName="PushRegister">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="group_id" phpName="GroupId" type="INTEGER"/>
+    <column name="user_id" phpName="UserId" type="INTEGER"/>
+    <column name="enabled" phpName="Enabled" type="BOOLEAN" size="1" defaultValue="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="user_profile" name="push_register_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="econnect" name="push_register_ibfk_2">
+      <reference local="group_id" foreign="value"/>
+    </foreign-key>
+    <index name="push_register_ibfk_1">
+      <index-column name="user_id"/>
+    </index>
+    <index name="push_register_ibfk_2">
+      <index-column name="group_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="roles" idMethod="native" phpName="Roles">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="segment" idMethod="native" phpName="Segment">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="code" phpName="Code" type="VARCHAR" size="255" required="true"/>
+    <column name="description" phpName="Description" type="VARCHAR" size="255" required="true"/>
+    <column name="project_id" phpName="ProjectId" type="VARCHAR" size="255"/>
+    <column name="project_number" phpName="ProjectNumber" type="VARCHAR" size="255"/>
+    <column name="api_key" phpName="ApiKey" type="VARCHAR" size="255"/>
+    <column name="ssl_cert" phpName="SslCert" type="VARCHAR" size="255"/>
+    <column name="pwd_cert" phpName="PwdCert" type="VARCHAR" size="255"/>
+    <column name="send_limit" phpName="SendLimit" type="INTEGER"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="sessions" idMethod="native" phpName="Sessions">
+    <column name="id" phpName="Id" type="VARCHAR" size="32" primaryKey="true" required="true"/>
+    <column name="access" phpName="Access" type="INTEGER" size="10" sqlType="int(10) unsigned"/>
+    <column name="data" phpName="Data" type="LONGVARCHAR"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="settings" idMethod="native" phpName="Settings">
+    <column name="name" phpName="Name" type="VARCHAR" size="50" primaryKey="true" required="true"/>
+    <column name="value" phpName="Value" type="VARCHAR" size="200" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="testimonials" idMethod="native" phpName="Testimonials">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="full_name" phpName="FullName" type="VARCHAR" size="200"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="testimony" phpName="Testimony" type="LONGVARCHAR" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="user_profile" name="testimonials_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="user_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="twitter" idMethod="native" phpName="Twitter">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="handle_id" phpName="HandleId" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="twitter_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_family" idMethod="native" phpName="UserFamily">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="fname" phpName="Fname" type="VARCHAR" size="50"/>
+    <column name="lname" phpName="Lname" type="VARCHAR" size="50"/>
+    <column name="relationship" phpName="Relationship" type="VARCHAR" size="50"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="user_family_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <index name="user_id">
+      <index-column name="user_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_login" idMethod="native" phpName="UserLogin">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="envelope" phpName="Envelope" type="VARCHAR" size="50" defaultValue="Guest"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="password" phpName="Password" type="VARCHAR" size="60" sqlType="binary(60)"/>
+    <column name="salt" phpName="Salt" type="VARCHAR" size="20"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true" defaultValue="0"/>
+    <column name="role_id" phpName="RoleId" type="INTEGER" required="true" defaultValue="0"/>
+    <column name="last_login" phpName="LastLogin" type="TIMESTAMP"/>
+    <column name="enabled" phpName="Enabled" type="TINYINT"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="user_login_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="roles" name="user_login_ibfk_2">
+      <reference local="role_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_admin_ibfk_1">
+      <index-column name="parish_id"/>
+    </index>
+    <index name="user_login_ibfk_2">
+      <index-column name="role_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_payment" idMethod="native" phpName="UserPayment">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="description" phpName="Description" type="VARCHAR" size="200" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="status" phpName="Status" type="VARCHAR" size="100"/>
+    <column name="reference" phpName="Reference" type="VARCHAR" size="100"/>
+    <column name="log" phpName="Log" type="LONGVARCHAR"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="user_login" name="user_payment_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <index name="user_payment_ibfk_1">
+      <index-column name="user_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_plan" idMethod="native" phpName="UserPlan">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="50" required="true"/>
+    <column name="params" phpName="Params" type="LONGVARCHAR" required="true"/>
+    <column name="cost" phpName="Cost" type="VARCHAR" size="10" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_profile" idMethod="native" phpName="UserProfile">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="fname" phpName="Fname" type="VARCHAR" size="50"/>
+    <column name="lname" phpName="Lname" type="VARCHAR" size="50"/>
+    <column name="address" phpName="Address" type="VARCHAR" size="200"/>
+    <column name="city" phpName="City" type="VARCHAR" size="50"/>
+    <column name="state" phpName="State" type="VARCHAR" size="50"/>
+    <column name="zip" phpName="Zip" type="VARCHAR" size="20"/>
+    <column name="country" phpName="Country" type="VARCHAR" size="50" defaultValue="USA"/>
+    <column name="phone" phpName="Phone" type="VARCHAR" size="20"/>
+    <column name="email" phpName="Email" type="VARCHAR" size="50"/>
+    <column name="dob" phpName="Dob" type="VARCHAR" size="50"/>
+    <column name="married" phpName="Married" type="BOOLEAN" size="1" required="true"/>
+    <column name="wedding" phpName="Wedding" type="VARCHAR" size="50"/>
+    <column name="push_id" phpName="PushId" type="VARCHAR" size="250" required="true"/>
+    <column name="platform" phpName="Platform" type="VARCHAR" size="50" required="true"/>
+    <column name="created_at" phpName="CreatedAt" type="TIMESTAMP" required="true" defaultExpr="CURRENT_TIMESTAMP"/>
+    <foreign-key foreignTable="parish" name="user_profile_ibfk_1">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="parish_id">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="user_subscription" idMethod="native" phpName="UserSubscription">
+    <column name="value" phpName="Value" type="INTEGER" primaryKey="true" autoIncrement="true" required="true"/>
+    <column name="plan_id" phpName="PlanId" type="INTEGER" required="true"/>
+    <column name="user_id" phpName="UserId" type="INTEGER" required="true"/>
+    <column name="parish_id" phpName="ParishId" type="INTEGER" required="true"/>
+    <column name="status" phpName="Status" type="BOOLEAN" size="1"/>
+    <column name="start_date" phpName="StartDate" type="TIMESTAMP"/>
+    <column name="end_date" phpName="EndDate" type="TIMESTAMP"/>
+    <column name="pay_id" phpName="PayId" type="INTEGER"/>
+    <column name="customer_ref" phpName="CustomerRef" type="VARCHAR" size="100" required="true"/>
+    <column name="mileage" phpName="Mileage" type="LONGVARCHAR"/>
+    <foreign-key foreignTable="user_login" name="user_subscription_ibfk_1">
+      <reference local="user_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="user_plan" name="user_subscription_ibfk_2">
+      <reference local="plan_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="user_payment" name="user_subscription_ibfk_3">
+      <reference local="pay_id" foreign="value"/>
+    </foreign-key>
+    <foreign-key foreignTable="parish" name="user_subscription_ibfk_4">
+      <reference local="parish_id" foreign="value"/>
+    </foreign-key>
+    <index name="user_subscription_ibfk_1">
+      <index-column name="user_id"/>
+    </index>
+    <index name="user_subscription_ibfk_2">
+      <index-column name="plan_id"/>
+    </index>
+    <index name="user_subscription_ibfk_3">
+      <index-column name="pay_id"/>
+    </index>
+    <index name="user_subscription_ibfk_4">
+      <index-column name="parish_id"/>
+    </index>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+</database>

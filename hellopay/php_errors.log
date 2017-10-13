@@ -1,0 +1,59 @@
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP Warning:  Creating default object from empty value in C:\apache\apache24\htdocs\church\hellopay\assets\common.php on line 66
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP   2. create_fail_response($amount = *uninitialized*, $items = *uninitialized*, $card = *uninitialized*) C:\apache\apache24\htdocs\church\hellopay\index.php:50
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP Warning:  Missing argument 5 for log_response(), called in C:\apache\apache24\htdocs\church\hellopay\index.php on line 51 and defined in C:\apache\apache24\htdocs\church\hellopay\assets\common.php on line 26
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:42:42 Africa/Lagos] PHP   2. log_response($res = *uninitialized*, $donor = *uninitialized*, $parish = *uninitialized*, $method = *uninitialized*, $passed = *uninitialized*) C:\apache\apache24\htdocs\church\hellopay\index.php:51
+[14-Sep-2017 19:43:16 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$last4 in C:\apache\apache24\htdocs\church\hellopay\assets\common.php on line 29
+[14-Sep-2017 19:43:16 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:43:16 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:43:16 Africa/Lagos] PHP   2. log_response($res = *uninitialized*, $donor = *uninitialized*, $parish = *uninitialized*, $method = *uninitialized*, $passed = *uninitialized*) C:\apache\apache24\htdocs\church\hellopay\index.php:51
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:44:18 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:51:56 Africa/Lagos] PHP Warning:  Creating default object from empty value in C:\apache\apache24\htdocs\church\hellopay\assets\common.php on line 66
+[14-Sep-2017 19:51:56 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:51:56 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:51:56 Africa/Lagos] PHP   2. create_fail_response($amount = *uninitialized*, $items = *uninitialized*, $card = *uninitialized*) C:\apache\apache24\htdocs\church\hellopay\index.php:50
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:52:00 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\hellopay\index.php on line 49
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP Warning:  Creating default object from empty value in C:\apache\apache24\htdocs\church\hellopay\assets\common.php on line 66
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:11 Africa/Lagos] PHP   2. create_fail_response() C:\apache\apache24\htdocs\church\hellopay\index.php:50
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 54
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$status in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Notice:  Undefined property: PayPal\Exception\PayPalConnectionException::$state in C:\apache\apache24\htdocs\church\hellopay\index.php on line 55
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP Stack trace:
+[14-Sep-2017 19:57:13 Africa/Lagos] PHP   1. {main}() C:\apache\apache24\htdocs\church\hellopay\index.php:0

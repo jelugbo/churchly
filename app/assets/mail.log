@@ -1,0 +1,2020 @@
+SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\n\rPHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:01:30 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <a04bdf4490bfe046ffe6021223599bab@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:01:30 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <a04bdf4490bfe046ffe6021223599bab@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_a04bdf4490bfe046ffe6021223599bab
+            [2] => b2_a04bdf4490bfe046ffe6021223599bab
+            [3] => b3_a04bdf4490bfe046ffe6021223599bab
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+            [extension_missing] => Extension missing: 
+        )
+
+    [error_count:protected] => 1
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => a04bdf4490bfe046ffe6021223599bab
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:37:38 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <0dc14e405db7fefbe3bac9de71f7a486@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:37:38 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <0dc14e405db7fefbe3bac9de71f7a486@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_0dc14e405db7fefbe3bac9de71f7a486
+            [2] => b2_0dc14e405db7fefbe3bac9de71f7a486
+            [3] => b3_0dc14e405db7fefbe3bac9de71f7a486
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 0dc14e405db7fefbe3bac9de71f7a486
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlidy website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>fpt@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>Grace Abundant
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlidy website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>fpt@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>Grace Abundant
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:40:57 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <ab0b1c30d2d4fec0fa327b7a90c2f18a@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:40:57 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <ab0b1c30d2d4fec0fa327b7a90c2f18a@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_ab0b1c30d2d4fec0fa327b7a90c2f18a
+            [2] => b2_ab0b1c30d2d4fec0fa327b7a90c2f18a
+            [3] => b3_ab0b1c30d2d4fec0fa327b7a90c2f18a
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => ab0b1c30d2d4fec0fa327b7a90c2f18a
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>tunde@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>Grace Abundant
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>tunde@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>Grace Abundant
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:56:13 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <e75c65708ab5f0768084239b9b9fe1b5@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:56:13 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <e75c65708ab5f0768084239b9b9fe1b5@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_e75c65708ab5f0768084239b9b9fe1b5
+            [2] => b2_e75c65708ab5f0768084239b9b9fe1b5
+            [3] => b3_e75c65708ab5f0768084239b9b9fe1b5
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => e75c65708ab5f0768084239b9b9fe1b5
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>yfvuyfuyi
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>yfvuyfuyi
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:57:46 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <7968d95537aa9e094b7edb2a297c04be@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:57:46 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <7968d95537aa9e094b7edb2a297c04be@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_7968d95537aa9e094b7edb2a297c04be
+            [2] => b2_7968d95537aa9e094b7edb2a297c04be
+            [3] => b3_7968d95537aa9e094b7edb2a297c04be
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 7968d95537aa9e094b7edb2a297c04be
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>okay
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>okay
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:58:51 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <d587624b06008bc1d80f5e49648e4a96@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:58:51 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <d587624b06008bc1d80f5e49648e4a96@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_d587624b06008bc1d80f5e49648e4a96
+            [2] => b2_d587624b06008bc1d80f5e49648e4a96
+            [3] => b3_d587624b06008bc1d80f5e49648e4a96
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => d587624b06008bc1d80f5e49648e4a96
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>okay
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <
+><
+> Name : <
+>Babatunde<
+> Email : <
+>churchlify@gmail.com<
+> Phone : <
+>8326146005<
+> Parish : <
+>Throne<
+> Message : <
+>okay
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:59:21 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <cdfc4b58f4964ab57792c8e1717be982@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:59:21 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <cdfc4b58f4964ab57792c8e1717be982@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_cdfc4b58f4964ab57792c8e1717be982
+            [2] => b2_cdfc4b58f4964ab57792c8e1717be982
+            [3] => b3_cdfc4b58f4964ab57792c8e1717be982
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => cdfc4b58f4964ab57792c8e1717be982
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below 
+
+ Name : 
+Babatunde
+ Email : 
+churchlify@gmail.com
+ Phone : 
+8326146005
+ Parish : 
+Throne
+ Message : 
+restart
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below 
+
+ Name : 
+Babatunde
+ Email : 
+churchlify@gmail.com
+ Phone : 
+8326146005
+ Parish : 
+Throne
+ Message : 
+restart
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 16:01:08 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <08d04b6c6c4342349b7768da94f518f2@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 16:01:08 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <08d04b6c6c4342349b7768da94f518f2@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_08d04b6c6c4342349b7768da94f518f2
+            [2] => b2_08d04b6c6c4342349b7768da94f518f2
+            [3] => b3_08d04b6c6c4342349b7768da94f518f2
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 08d04b6c6c4342349b7768da94f518f2
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <\br><\br> Name : <\br>Babatunde<\br> Email : <\br>churchlify@gmail.com<\br> Phone : <\br>8326146005<\br> Parish : <\br>Throne<\br> Message : <\br>restart
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <\br><\br> Name : <\br>Babatunde<\br> Email : <\br>churchlify@gmail.com<\br> Phone : <\br>8326146005<\br> Parish : <\br>Throne<\br> Message : <\br>restart
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 16:21:48 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <343a490bd93176aefb0e8dfb8ceb5053@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 16:21:48 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <343a490bd93176aefb0e8dfb8ceb5053@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_343a490bd93176aefb0e8dfb8ceb5053
+            [2] => b2_343a490bd93176aefb0e8dfb8ceb5053
+            [3] => b3_343a490bd93176aefb0e8dfb8ceb5053
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 343a490bd93176aefb0e8dfb8ceb5053
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <br><br> Name : <br>Babatunde<br> Email : <br>churchlify@gmail.com<br> Phone : <br>8326146005<br> Parish : <br>Throne<br> Message : <br>restart
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <br><br> Name : <br>Babatunde<br> Email : <br>churchlify@gmail.com<br> Phone : <br>8326146005<br> Parish : <br>Throne<br> Message : <br>restart
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 16:23:23 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <d1cf4bec23e165dc7c9e5a2b3c2896a8@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 16:23:23 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <d1cf4bec23e165dc7c9e5a2b3c2896a8@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_d1cf4bec23e165dc7c9e5a2b3c2896a8
+            [2] => b2_d1cf4bec23e165dc7c9e5a2b3c2896a8
+            [3] => b3_d1cf4bec23e165dc7c9e5a2b3c2896a8
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => d1cf4bec23e165dc7c9e5a2b3c2896a8
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlify website, please find  details below <br><br> Name : Babatunde<br> Email : churchlify@gmail.com<br> Phone : 8326146005<br> Parish : Throne<br> Message : <br>Perfect for enterprises or teams who require high availability and performance at scale. Jira Software Data Center gives your entire organization peace of mind for your mission critical application.
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlify website, please find  details below <br><br> Name : Babatunde<br> Email : churchlify@gmail.com<br> Phone : 8326146005<br> Parish : Throne<br> Message : <br>Perfect for enterprises or teams who require high availability and performance at scale. Jira Software Data Center gives your entire organization peace of mind for your mission critical application.
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 16:26:00 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <f92720487b2363a763dfba3611a966c7@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 16:26:00 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <f92720487b2363a763dfba3611a966c7@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_f92720487b2363a763dfba3611a966c7
+            [2] => b2_f92720487b2363a763dfba3611a966c7
+            [3] => b3_f92720487b2363a763dfba3611a966c7
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => f92720487b2363a763dfba3611a966c7
+)

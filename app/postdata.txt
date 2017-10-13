@@ -1,0 +1,281 @@
+Array
+(
+    [0] => 8326146005
+)
+Twilio\Rest\Api\V2010\Account\MessageInstance Object
+(
+    [_media:protected] => 
+    [_feedback:protected] => 
+    [version:protected] => Twilio\Rest\Api\V2010 Object
+        (
+            [_accounts:protected] => 
+            [_account:protected] => Twilio\Rest\Api\V2010\AccountContext Object
+                (
+                    [_addresses:protected] => 
+                    [_applications:protected] => 
+                    [_authorizedConnectApps:protected] => 
+                    [_availablePhoneNumbers:protected] => 
+                    [_calls:protected] => 
+                    [_conferences:protected] => 
+                    [_connectApps:protected] => 
+                    [_incomingPhoneNumbers:protected] => 
+                    [_keys:protected] => 
+                    [_messages:protected] => Twilio\Rest\Api\V2010\Account\MessageList Object
+                        (
+                            [version:protected] => Twilio\Rest\Api\V2010 Object
+ *RECURSION*
+                            [solution:protected] => Array
+                                (
+                                    [accountSid] => AC773338ab5d62998f605a2df6768da416
+                                )
+
+                            [uri:protected] => /Accounts/AC773338ab5d62998f605a2df6768da416/Messages.json
+                        )
+
+                    [_newKeys:protected] => 
+                    [_newSigningKeys:protected] => 
+                    [_notifications:protected] => 
+                    [_outgoingCallerIds:protected] => 
+                    [_queues:protected] => 
+                    [_recordings:protected] => 
+                    [_signingKeys:protected] => 
+                    [_sip:protected] => 
+                    [_shortCodes:protected] => 
+                    [_tokens:protected] => 
+                    [_transcriptions:protected] => 
+                    [_usage:protected] => 
+                    [_validationRequests:protected] => 
+                    [version:protected] => Twilio\Rest\Api\V2010 Object
+ *RECURSION*
+                    [solution:protected] => Array
+                        (
+                            [sid] => AC773338ab5d62998f605a2df6768da416
+                        )
+
+                    [uri:protected] => /Accounts/AC773338ab5d62998f605a2df6768da416.json
+                )
+
+            [_addresses:protected] => 
+            [_applications:protected] => 
+            [_authorizedConnectApps:protected] => 
+            [_availablePhoneNumbers:protected] => 
+            [_calls:protected] => 
+            [_conferences:protected] => 
+            [_connectApps:protected] => 
+            [_incomingPhoneNumbers:protected] => 
+            [_keys:protected] => 
+            [_messages:protected] => 
+            [_newKeys:protected] => 
+            [_newSigningKeys:protected] => 
+            [_notifications:protected] => 
+            [_outgoingCallerIds:protected] => 
+            [_queues:protected] => 
+            [_recordings:protected] => 
+            [_signingKeys:protected] => 
+            [_sip:protected] => 
+            [_shortCodes:protected] => 
+            [_tokens:protected] => 
+            [_transcriptions:protected] => 
+            [_usage:protected] => 
+            [_validationRequests:protected] => 
+            [domain:protected] => Twilio\Rest\Api Object
+                (
+                    [_v2010:protected] => Twilio\Rest\Api\V2010 Object
+ *RECURSION*
+                    [client:protected] => Twilio\Rest\Client Object
+                        (
+                            [username:protected] => AC773338ab5d62998f605a2df6768da416
+                            [password:protected] => d34d3dea512e082f17347226b94a43ce
+                            [accountSid:protected] => AC773338ab5d62998f605a2df6768da416
+                            [region:protected] => 
+                            [httpClient:protected] => Twilio\Http\CurlClient Object
+                                (
+                                    [curlOptions:protected] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [_account:protected] => 
+                            [_accounts:protected] => 
+                            [_api:protected] => Twilio\Rest\Api Object
+ *RECURSION*
+                            [_chat:protected] => 
+                            [_ipMessaging:protected] => 
+                            [_lookups:protected] => 
+                            [_monitor:protected] => 
+                            [_pricing:protected] => 
+                            [_taskrouter:protected] => 
+                            [_trunking:protected] => 
+                        )
+
+                    [baseUrl:protected] => https://api.twilio.com
+                )
+
+            [version:protected] => 2010-04-01
+        )
+
+    [context:protected] => 
+    [properties:protected] => Array
+        (
+            [accountSid] => AC773338ab5d62998f605a2df6768da416
+            [apiVersion] => 2010-04-01
+            [body] => Test Message
+            [dateCreated] => DateTime Object
+                (
+                    [date] => 2017-06-20 15:37:01.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [dateUpdated] => DateTime Object
+                (
+                    [date] => 2017-06-20 15:37:01.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [dateSent] => DateTime Object
+                (
+                    [date] => 2017-06-20 15:37:01.000000
+                    [timezone_type] => 3
+                    [timezone] => UTC
+                )
+
+            [direction] => outbound-api
+            [errorCode] => 
+            [errorMessage] => 
+            [from] => +14804184020
+            [messagingServiceSid] => 
+            [numMedia] => 0
+            [numSegments] => 1
+            [price] => 
+            [priceUnit] => USD
+            [sid] => SMa6a9b527f6674ec09bda318b8379b9f2
+            [status] => queued
+            [subresourceUris] => Array
+                (
+                    [media] => /2010-04-01/Accounts/AC773338ab5d62998f605a2df6768da416/Messages/SMa6a9b527f6674ec09bda318b8379b9f2/Media.json
+                )
+
+            [to] => +18326146005
+            [uri] => /2010-04-01/Accounts/AC773338ab5d62998f605a2df6768da416/Messages/SMa6a9b527f6674ec09bda318b8379b9f2.json
+        )
+
+    [solution:protected] => Array
+        (
+            [accountSid] => AC773338ab5d62998f605a2df6768da416
+            [sid] => SMa6a9b527f6674ec09bda318b8379b9f2
+        )
+
+)
+8326146005Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6027329008, 6023697377, 3146627842, 6028316191, 5202206704, 602739008, 3146627842, 6023697377, 8326146005
+    [message] => Beloved,
+Please find attached flyer of the worker's conference, we are all encouraged to attend.
+    [isMMS] => on
+    [media] => http://churchlify.com/flyerchurch.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6023697377, 3146627842, 6028316191, 5202206704, 602739008, 3146627842, 6023697377, 8326146005
+    [message] => Beloved,
+Please find attached flyer of the worker's conference, we are all encouraged to attend.
+    [isMMS] => on
+    [media] => http://churchlify.com/flyerchurch.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6023697377, 3146627842, 6028316191, 5202206704, 3146627842, 6023697377, 8326146005
+    [message] => Beloved,
+Please find attached flyer of the worker's conference, we are all encouraged to attend.
+    [isMMS] => on
+    [media] => http://churchlify.com/flyerchurch.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+)
+Array
+(
+)
+Array
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6027329008, 6023697377, 3146627842, 6028316191, 5202206704, 602739008, 3146627842, 6023697377
+    [message] => Hello FAM,
+
+Please find attached, flyer for the annual worker conference holding tomorrow and Saturday.
+    [isMMS] => on
+    [media] => http://rccgthog.org/images/mms/flyerchurch.jpg
+    [post_data] => 
+)
+Array
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6027329008, 6023697377, 3146627842, 6028316191, 5202206704, 602739008, 3146627842, 6023697377
+    [message] => Hello FAM,
+
+Please find attached, flyer for the annual worker conference holding tomorrow and Saturday.
+    [isMMS] => on
+    [media] => http://rccgthog.org/images/mms/flyerchurch.jpg
+    [post_data] => 
+)
+Array
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 6028316191, 5202206704, 6027329008, 6023697377, 3146627842, 6028316191, 5202206704, 602739008, 3146627842, 6023697377
+    [message] => Hello FAM,
+
+Please find attached, flyer for the annual worker conference holding tomorrow and Saturday.
+    [isMMS] => on
+    [media] => http://rccgthog.org/images/mms/flyerchurch.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+    [to] => 5616992615, 6022284834, 4803356111, 6233293050, 4803266868, 4803169113, 4806921027, 6087728655, 2674499026, 3479426089, 6232068074, 6025500011, 8328736909, 3479096740, 7069791172, 6023507871, 6024861816, 6232164496, 6024887215,6233365493, 6023359880, 5595792513, 6022284834, 7026100339, 6234766921, 6234766547, 5202206704, 6027329008, 6023697377, 3146627842, 6028316191, 3146627842
+    [message] => Hello FAM,
+
+Hope you had a great day? Please find attached the church flyer for your perusal. Shalom
+    [isMMS] => on
+    [media] => http://rccgthog.org/images/mms/church_flyer.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+)
+Array
+(
+    [to] => 5616992615,6022284834,4803356111,6233293050,4803266868,4803169113,4806921027,6087728655,2674499026,3479426089,6232068074,6025500011,8328736909,3479096740,7069791172,6023507871,6024861816,6232164496,6024887215,6233365493,6023359880,5595792513,7026100339,6234766921,6234766547,6028316191,5202206704,6027329008,6023697377,3146627842,602739008
+    [message] => Please find attached, flyer for the Minister's conference, we are all encouraged to attend
+    [isMMS] => on
+    [media] => http://7thcolonnade.com/ministers.jpg
+    [post_data] => 
+)
+inside the loopArray
+(
+)
+Array
+(
+    [to] => 6618694389, 6614475271
+    [message] => Testing iPad SMS messages
+    [media] => 
+    [post_data] => 
+)
+inside the loop

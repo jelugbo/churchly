@@ -1,0 +1,188 @@
+SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting\n\rPHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchfily - contact form message from: Babatunde
+    [Body] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => You have a new message from churchlidy website, please find  details below <r><r> Name : <r>Babatunde<r> Email : <r>tunde@baba.com<r> Phone : <r>8326146005<r> Parish : <r>Throne<r> Message : <r>Okay
+
+    [MIMEHeader:protected] => Date: Thu, 12 Oct 2017 15:06:34 -0500
+To: Churchlify <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchfily - contact form message from: Babatunde
+Message-ID: <2d3a0758af1b489ad71a2a64eb5f832c@localhost>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 12 Oct 2017 15:06:34 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <2d3a0758af1b489ad71a2a64eb5f832c@localhost>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_2d3a0758af1b489ad71a2a64eb5f832c
+            [2] => b2_2d3a0758af1b489ad71a2a64eb5f832c
+            [3] => b3_2d3a0758af1b489ad71a2a64eb5f832c
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+            [extension_missing] => Extension missing: 
+        )
+
+    [error_count:protected] => 1
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 2d3a0758af1b489ad71a2a64eb5f832c
+)

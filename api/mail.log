@@ -1,0 +1,2592 @@
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 22 Sep 2017 13:12:47 -0500
+To: 8326146005 <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <abce8aed6479914c16e252ac80f94de0@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 22 Sep 2017 13:12:47 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => 8326146005
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <abce8aed6479914c16e252ac80f94de0@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_abce8aed6479914c16e252ac80f94de0
+            [2] => b2_abce8aed6479914c16e252ac80f94de0
+            [3] => b3_abce8aed6479914c16e252ac80f94de0
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => abce8aed6479914c16e252ac80f94de0
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 22 Sep 2017 13:13:35 -0500
+To: 8326146005 <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <dd758b0bf964c3607afba92eb94fc11e@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 22 Sep 2017 13:13:35 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => 8326146005
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <dd758b0bf964c3607afba92eb94fc11e@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_dd758b0bf964c3607afba92eb94fc11e
+            [2] => b2_dd758b0bf964c3607afba92eb94fc11e
+            [3] => b3_dd758b0bf964c3607afba92eb94fc11e
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => dd758b0bf964c3607afba92eb94fc11e
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:00 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <748314ff48d75379b7c8f1d7be387f36@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:00 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <748314ff48d75379b7c8f1d7be387f36@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_748314ff48d75379b7c8f1d7be387f36
+            [2] => b2_748314ff48d75379b7c8f1d7be387f36
+            [3] => b3_748314ff48d75379b7c8f1d7be387f36
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 748314ff48d75379b7c8f1d7be387f36
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:04 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <0b7878c8d9ecdbccc4ef81a7f0b49a26@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:04 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <0b7878c8d9ecdbccc4ef81a7f0b49a26@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_0b7878c8d9ecdbccc4ef81a7f0b49a26
+            [2] => b2_0b7878c8d9ecdbccc4ef81a7f0b49a26
+            [3] => b3_0b7878c8d9ecdbccc4ef81a7f0b49a26
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 0b7878c8d9ecdbccc4ef81a7f0b49a26
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:06 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <28b9c085698c1ae0c4f876297b611a30@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:06 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <28b9c085698c1ae0c4f876297b611a30@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_28b9c085698c1ae0c4f876297b611a30
+            [2] => b2_28b9c085698c1ae0c4f876297b611a30
+            [3] => b3_28b9c085698c1ae0c4f876297b611a30
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 28b9c085698c1ae0c4f876297b611a30
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:09 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <353518cf73d951aea62c2b65d6598aa7@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:09 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <353518cf73d951aea62c2b65d6598aa7@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_353518cf73d951aea62c2b65d6598aa7
+            [2] => b2_353518cf73d951aea62c2b65d6598aa7
+            [3] => b3_353518cf73d951aea62c2b65d6598aa7
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 353518cf73d951aea62c2b65d6598aa7
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:11 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <404e2b9566d2158af337617d5bf9a8d1@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:11 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <404e2b9566d2158af337617d5bf9a8d1@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_404e2b9566d2158af337617d5bf9a8d1
+            [2] => b2_404e2b9566d2158af337617d5bf9a8d1
+            [3] => b3_404e2b9566d2158af337617d5bf9a8d1
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 404e2b9566d2158af337617d5bf9a8d1
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:13 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <8eecb7d3efa46f091ccb8380184ddb3d@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:13 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <8eecb7d3efa46f091ccb8380184ddb3d@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_8eecb7d3efa46f091ccb8380184ddb3d
+            [2] => b2_8eecb7d3efa46f091ccb8380184ddb3d
+            [3] => b3_8eecb7d3efa46f091ccb8380184ddb3d
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 8eecb7d3efa46f091ccb8380184ddb3d
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:15 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <ccda2f7730225d4a851539e9c70be588@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:15 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <ccda2f7730225d4a851539e9c70be588@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_ccda2f7730225d4a851539e9c70be588
+            [2] => b2_ccda2f7730225d4a851539e9c70be588
+            [3] => b3_ccda2f7730225d4a851539e9c70be588
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => ccda2f7730225d4a851539e9c70be588
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:17 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <6a5d2321bcf3b0d207fca72e34b35445@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:17 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <6a5d2321bcf3b0d207fca72e34b35445@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_6a5d2321bcf3b0d207fca72e34b35445
+            [2] => b2_6a5d2321bcf3b0d207fca72e34b35445
+            [3] => b3_6a5d2321bcf3b0d207fca72e34b35445
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 6a5d2321bcf3b0d207fca72e34b35445
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:17:19 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <570223c98e9215007137892c6e515748@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:17:19 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <570223c98e9215007137892c6e515748@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_570223c98e9215007137892c6e515748
+            [2] => b2_570223c98e9215007137892c6e515748
+            [3] => b3_570223c98e9215007137892c6e515748
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 570223c98e9215007137892c6e515748
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:20:20 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <57ecffa254ebc0d5c33eb4c2a5f1bc26@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:20:20 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <57ecffa254ebc0d5c33eb4c2a5f1bc26@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_57ecffa254ebc0d5c33eb4c2a5f1bc26
+            [2] => b2_57ecffa254ebc0d5c33eb4c2a5f1bc26
+            [3] => b3_57ecffa254ebc0d5c33eb4c2a5f1bc26
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 57ecffa254ebc0d5c33eb4c2a5f1bc26
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:20:40 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <58fa0b86196608f9e8831a31a0d7bf6e@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:20:40 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <58fa0b86196608f9e8831a31a0d7bf6e@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_58fa0b86196608f9e8831a31a0d7bf6e
+            [2] => b2_58fa0b86196608f9e8831a31a0d7bf6e
+            [3] => b3_58fa0b86196608f9e8831a31a0d7bf6e
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 58fa0b86196608f9e8831a31a0d7bf6e
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => Lets keep trying again
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Lets keep trying again
+
+    [MIMEHeader:protected] => Date: Fri, 29 Sep 2017 18:21:38 -0500
+To: 7thcolonnade@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <301c4b5944b3099dc529269bcce27fb1@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Fri, 29 Sep 2017 18:21:38 -0500
+    [Host] => mail.churchlify.com
+    [Port] => 25
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello.churchlify
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 2.0.0 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 7thcolonnade@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [7thcolonnade@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <301c4b5944b3099dc529269bcce27fb1@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_301c4b5944b3099dc529269bcce27fb1
+            [2] => b2_301c4b5944b3099dc529269bcce27fb1
+            [3] => b3_301c4b5944b3099dc529269bcce27fb1
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 301c4b5944b3099dc529269bcce27fb1
+)
+SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: Message rejected: Email address is not verified. The following identities failed the check in region US-EAST-1: jelugbo@gmail.com
+ SMTP code: 554\n\rPHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => SMTP Error: data not accepted.SMTP server error: DATA END command failed Detail: Message rejected: Email address is not verified. The following identities failed the check in region US-EAST-1: jelugbo@gmail.com
+ SMTP code: 554
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Churchlify - Verification Code
+    [Body] => We are sending
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => We are sending
+
+    [MIMEHeader:protected] => Date: Sat, 30 Sep 2017 10:16:52 -0500
+To: jelugbo@gmail.com
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Churchlify - Verification Code
+Message-ID: <e6eae6cd07465bb0aad2b45e83c5d94f@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Sat, 30 Sep 2017 10:16:52 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => Resource id #9
+            [error:protected] => Array
+                (
+                    [error] => DATA END command failed
+                    [detail] => Message rejected: Email address is not verified. The following identities failed the check in region US-EAST-1: jelugbo@gmail.com
+
+                    [smtp_code] => 554
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 250-email-smtp.amazonaws.com
+250-8BITMIME
+250-SIZE 10485760
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250 Ok
+
+            [server_caps:protected] => Array
+                (
+                    [EHLO] => email-smtp.amazonaws.com
+                    [8BITMIME] => 1
+                    [SIZE] => 10485760
+                    [STARTTLS] => 1
+                    [AUTH] => Array
+                        (
+                            [0] => PLAIN
+                            [1] => LOGIN
+                        )
+
+                    [Ok] => 1
+                )
+
+            [last_reply:protected] => 554 Message rejected: Email address is not verified. The following identities failed the check in region US-EAST-1: jelugbo@gmail.com
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <e6eae6cd07465bb0aad2b45e83c5d94f@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_e6eae6cd07465bb0aad2b45e83c5d94f
+            [2] => b2_e6eae6cd07465bb0aad2b45e83c5d94f
+            [3] => b3_e6eae6cd07465bb0aad2b45e83c5d94f
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+            [extension_missing] => Extension missing: 
+        )
+
+    [error_count:protected] => 1
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => e6eae6cd07465bb0aad2b45e83c5d94f
+)

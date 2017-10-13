@@ -1,0 +1,863 @@
+Could not instantiate mail function.\n\rPHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => Could not instantiate mail function.
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Failed: Your Donation to Salvation Katy
+    [Body] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: PAY-3PK210449T3524813LFOF5IY<br>Description: Tithe::15<br>Total: USD 15.00<br>Status: Failed
+        <br><br>Regards,<br>-Churchlify
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: PAY-3PK210449T3524813LFOF5IY<br>Description: Tithe::15<br>Total: USD 15.00<br>Status: Failed
+        <br><br>Regards,<br>-Churchlify
+
+    [MIMEHeader:protected] => Date: Wed, 5 Jul 2017 04:36:30 +0100
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Message-ID: <53ebdb4a809209d694da8faa1851868d@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+    [mailHeader:protected] => To: Babatunde Babatunde <jelugbo@gmail.com>
+Subject: Failed: Your Donation to Salvation Katy
+
+    [WordWrap] => 0
+    [Mailer] => mail
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Wed, 5 Jul 2017 04:36:30 +0100
+    [Host] => mail.churchlify.com
+    [Port] => 465
+    [Helo] => 
+    [SMTPSecure] => ssl
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello@churchlify.com
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => 
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Babatunde Babatunde
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <53ebdb4a809209d694da8faa1851868d@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_53ebdb4a809209d694da8faa1851868d
+            [2] => b2_53ebdb4a809209d694da8faa1851868d
+            [3] => b3_53ebdb4a809209d694da8faa1851868d
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+            [extension_missing] => Extension missing: 
+        )
+
+    [error_count:protected] => 1
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 53ebdb4a809209d694da8faa1851868d
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Successful: Your Donation to Throne of Grace
+    [Body] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: 19RtxmKQCu<br>Description: There was an exception processing this payment for: Tithe::100<br>Total: USD 1<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: 19RtxmKQCu<br>Description: There was an exception processing this payment for: Tithe::100<br>Total: USD 1<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+
+    [MIMEHeader:protected] => Date: Thu, 14 Sep 2017 19:34:47 +0100
+To: Babatunde Babatunde <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Successful: Your Donation to Throne of Grace
+Message-ID: <45c3f42aae1d4d83f2debfce911995a5@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 14 Sep 2017 19:34:47 +0100
+    [Host] => mail.churchlify.com
+    [Port] => 465
+    [Helo] => 
+    [SMTPSecure] => ssl
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello@churchlify.com
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 so7.infinitysrv.com closing connection
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Babatunde Babatunde
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <45c3f42aae1d4d83f2debfce911995a5@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_45c3f42aae1d4d83f2debfce911995a5
+            [2] => b2_45c3f42aae1d4d83f2debfce911995a5
+            [3] => b3_45c3f42aae1d4d83f2debfce911995a5
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 45c3f42aae1d4d83f2debfce911995a5
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Successful: Your Donation to Throne of Grace
+    [Body] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: HjM5pgJFAi<br>Description: There was an exception processing this payment for: Offering::20<br>Total: USD 0.2<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: HjM5pgJFAi<br>Description: There was an exception processing this payment for: Offering::20<br>Total: USD 0.2<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+
+    [MIMEHeader:protected] => Date: Thu, 14 Sep 2017 19:44:16 +0100
+To: Babatunde Babatunde <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Successful: Your Donation to Throne of Grace
+Message-ID: <4d5d9c5c4d0928865ad456bf41c1e6ab@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 14 Sep 2017 19:44:16 +0100
+    [Host] => mail.churchlify.com
+    [Port] => 465
+    [Helo] => 
+    [SMTPSecure] => ssl
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello@churchlify.com
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 so7.infinitysrv.com closing connection
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Babatunde Babatunde
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <4d5d9c5c4d0928865ad456bf41c1e6ab@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_4d5d9c5c4d0928865ad456bf41c1e6ab
+            [2] => b2_4d5d9c5c4d0928865ad456bf41c1e6ab
+            [3] => b3_4d5d9c5c4d0928865ad456bf41c1e6ab
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 4d5d9c5c4d0928865ad456bf41c1e6ab
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Successful: Your Donation to Throne of Grace
+    [Body] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: qboSxvWOZV<br>Description: There was an exception processing this payment for: Offering::30<br>Total: USD 0.3<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: qboSxvWOZV<br>Description: There was an exception processing this payment for: Offering::30<br>Total: USD 0.3<br>Status: Successful
+        <br><br>Regards,<br>-Churchlify
+
+    [MIMEHeader:protected] => Date: Thu, 14 Sep 2017 19:51:58 +0100
+To: Babatunde Babatunde <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Successful: Your Donation to Throne of Grace
+Message-ID: <18943324a4bcf9425b56deb6acf84b54@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 14 Sep 2017 19:51:58 +0100
+    [Host] => mail.churchlify.com
+    [Port] => 465
+    [Helo] => 
+    [SMTPSecure] => ssl
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello@churchlify.com
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 so7.infinitysrv.com closing connection
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Babatunde Babatunde
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <18943324a4bcf9425b56deb6acf84b54@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_18943324a4bcf9425b56deb6acf84b54
+            [2] => b2_18943324a4bcf9425b56deb6acf84b54
+            [3] => b3_18943324a4bcf9425b56deb6acf84b54
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 18943324a4bcf9425b56deb6acf84b54
+)
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => Failed: Your Donation to Throne of Grace
+    [Body] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: y3zGPBKOhm<br>Description: There was an exception processing this payment for: Tithe::10<br>Total: USD 10<br>Status: Failed
+        <br><br>Regards,<br>-Churchlify
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => Hello Babatunde Babatunde,Please find payment details below:<br><br>
+        Payment Reference: y3zGPBKOhm<br>Description: There was an exception processing this payment for: Tithe::10<br>Total: USD 10<br>Status: Failed
+        <br><br>Regards,<br>-Churchlify
+
+    [MIMEHeader:protected] => Date: Thu, 14 Sep 2017 19:57:11 +0100
+To: Babatunde Babatunde <jelugbo@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: Failed: Your Donation to Throne of Grace
+Message-ID: <449802b8738ba3c595e8351092898d51@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 14 Sep 2017 19:57:11 +0100
+    [Host] => mail.churchlify.com
+    [Port] => 465
+    [Helo] => 
+    [SMTPSecure] => ssl
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => hello@churchlify.com
+    [Password] => Hello@2014
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 so7.infinitysrv.com closing connection
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => jelugbo@gmail.com
+                    [1] => Babatunde Babatunde
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [jelugbo@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <449802b8738ba3c595e8351092898d51@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_449802b8738ba3c595e8351092898d51
+            [2] => b2_449802b8738ba3c595e8351092898d51
+            [3] => b3_449802b8738ba3c595e8351092898d51
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 449802b8738ba3c595e8351092898d51
+)

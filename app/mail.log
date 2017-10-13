@@ -1,0 +1,183 @@
+PHPMailer Object
+(
+    [Version] => 5.2.16
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => text/html
+    [Encoding] => 7bit
+    [ErrorInfo] => 
+    [From] => hello@churchlify.com
+    [FromName] => Churchlify
+    [Sender] => hello@churchlify.com
+    [ReturnPath] => 
+    [Subject] => [CHURCHLIFY] Password Reset Token
+    [Body] => <html><body>
+<p>Hello  User ,</p>
+<p>A request was submitted to reset your Churchlify password.</p>
+<b>Username:</b>&nbsp;&nbsp;churchlify@gmail.com<br/>
+<b>Reset Token:</b>&nbsp;&nbsp;uSc9EbLRoGTfPIZFO0tC<br/>
+<p>You may now use the "<u>Forgot your password</u>" link on Churchlify log in page to reset your password.</p><p>This is an automated message and responses will be ignored or rejected.</p>
+</body></html>
+
+    [AltBody] => 
+    [Ical] => 
+    [MIMEBody:protected] => <html><body>
+<p>Hello  User ,</p>
+<p>A request was submitted to reset your Churchlify password.</p>
+<b>Username:</b>&nbsp;&nbsp;churchlify@gmail.com<br/>
+<b>Reset Token:</b>&nbsp;&nbsp;uSc9EbLRoGTfPIZFO0tC<br/>
+<p>You may now use the "<u>Forgot your password</u>" link on Churchlify log in page to reset your password.</p><p>This is an automated message and responses will be ignored or rejected.</p>
+</body></html>
+
+    [MIMEHeader:protected] => Date: Thu, 5 Oct 2017 13:23:30 -0500
+To: User <churchlify@gmail.com>
+From: Churchlify <hello@churchlify.com>
+Reply-To: Churchlify <hello@churchlify.com>
+Subject: [CHURCHLIFY] Password Reset Token
+Message-ID: <8a2343026c669f509b268063ea4db80d@churchlify.go>
+X-Mailer: PHPMailer 5.2.16 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [PluginDir] => 
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => Thu, 5 Oct 2017 13:23:30 -0500
+    [Host] => email-smtp.us-east-1.amazonaws.com
+    [Port] => 587
+    [Helo] => 
+    [SMTPSecure] => tls
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 1
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => AKIAIVTIF5TJK5RNQCRA
+    [Password] => Am/bfWxmZSpM87sJ6Mg0LNPipTx9FgfjOFRz4rqYs82k
+    [AuthType] => 
+    [Realm] => 
+    [Workstation] => 
+    [Timeout] => 300
+    [SMTPDebug] => 0
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [LE] => 
+
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_private] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => SMTP Object
+        (
+            [Version] => 5.2.16
+            [SMTP_PORT] => 25
+            [CRLF] => 
+
+            [do_debug] => 0
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_conn:protected] => 
+            [error:protected] => Array
+                (
+                    [error] => 
+                    [detail] => 
+                    [smtp_code] => 
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 
+            [server_caps:protected] => 
+            [last_reply:protected] => 221 Bye
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => churchlify@gmail.com
+                    [1] => User
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+            [hello@churchlify.com] => Array
+                (
+                    [0] => hello@churchlify.com
+                    [1] => Churchlify
+                )
+
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [churchlify@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <8a2343026c669f509b268063ea4db80d@churchlify.go>
+    [message_type:protected] => plain
+    [boundary:protected] => Array
+        (
+            [1] => b1_8a2343026c669f509b268063ea4db80d
+            [2] => b2_8a2343026c669f509b268063ea4db80d
+            [3] => b3_8a2343026c669f509b268063ea4db80d
+        )
+
+    [language:protected] => Array
+        (
+        )
+
+    [error_count:protected] => 0
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => 8a2343026c669f509b268063ea4db80d
+)

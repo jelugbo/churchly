@@ -1,0 +1,75 @@
+Array
+(
+    [RoleId] => 0
+    [MenuId] => 1
+    [Access] => false
+)
+
+
+Array
+(
+    [RoleId] => 0
+    [MenuId] => 2
+    [Access] => true
+)
+
+
+Array
+(
+    [RoleId] => 0
+    [MenuId] => 1
+    [Access] => false
+)
+Array
+(
+    [RoleId] => 0
+    [MenuId] => 2
+    [Access] => true
+)
+
+
+
+
+Array
+(
+    [RoleId] => 0
+    [MenuId] => 2
+    [Access] => true
+)
+
+
+
+
+
+Array
+(
+    [RoleId] => 2
+    [MenuId] => 1
+    [Access] => true
+)
+
+
+Array
+(
+    [RoleId] => 2
+    [MenuId] => 2
+    [Access] => true
+)
+
+
+Array
+(
+    [RoleId] => 2
+    [MenuId] => 1
+    [Access] => true
+)
+
+
+Array
+(
+    [RoleId] => 2
+    [MenuId] => 2
+    [Access] => false
+)
+
+

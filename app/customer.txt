@@ -1,0 +1,4467 @@
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWTZtkmm134Dfs
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507176374
+            [currency] => 
+            [default_source] => card_1B9QcODuYO5mQc6btaRGLZPc
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9QcODuYO5mQc6btaRGLZPc
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWTZtkmm134Dfs
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 11
+                                                    [exp_year] => 2022
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWTZtkmm134Dfs/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                            [plan] => Plus
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWTZtkmm134Dfs/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => Stripe\ApiResponse Object
+                        (
+                            [headers] => Array
+                                (
+                                    [Server] => nginx
+                                    [Date] => Thu, 05 Oct 2017 04:06:18 GMT
+                                    [Content-Type] => application/json
+                                    [Content-Length] => 1575
+                                    [Connection] => keep-alive
+                                    [Access-Control-Allow-Credentials] => true
+                                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                                    [Access-Control-Allow-Origin] => *
+                                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                                    [Access-Control-Max-Age] => 300
+                                    [Cache-Control] => no-cache, no-store
+                                    [Request-Id] => req_UuWVJiispx5oBX
+                                    [Stripe-Version] => 2017-08-15
+                                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                                )
+
+                            [body] => {
+  "id": "sub_BWTZBxnWA8fvjb",
+  "object": "subscription",
+  "application_fee_percent": null,
+  "billing": "charge_automatically",
+  "cancel_at_period_end": false,
+  "canceled_at": null,
+  "created": 1507176377,
+  "current_period_end": 1509854777,
+  "current_period_start": 1507176377,
+  "customer": "cus_BWTZtkmm134Dfs",
+  "discount": null,
+  "ended_at": null,
+  "items": {
+    "object": "list",
+    "data": [
+      {
+        "id": "si_1B9QcnDuYO5mQc6biB957l9k",
+        "object": "subscription_item",
+        "created": 1507176378,
+        "metadata": {},
+        "plan": {
+          "id": "Plus",
+          "object": "plan",
+          "amount": 4999,
+          "created": 1507155415,
+          "currency": "usd",
+          "interval": "month",
+          "interval_count": 1,
+          "livemode": false,
+          "metadata": {},
+          "name": "Plus",
+          "statement_descriptor": null,
+          "trial_period_days": null
+        },
+        "quantity": 1
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/subscription_items?subscription=sub_BWTZBxnWA8fvjb"
+  },
+  "livemode": false,
+  "metadata": {},
+  "plan": {
+    "id": "Plus",
+    "object": "plan",
+    "amount": 4999,
+    "created": 1507155415,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {},
+    "name": "Plus",
+    "statement_descriptor": null,
+    "trial_period_days": null
+  },
+  "quantity": 1,
+  "start": 1507176377,
+  "status": "active",
+  "tax_percent": null,
+  "trial_end": null,
+  "trial_start": null
+}
+
+                            [json] => Array
+                                (
+                                    [id] => sub_BWTZBxnWA8fvjb
+                                    [object] => subscription
+                                    [application_fee_percent] => 
+                                    [billing] => charge_automatically
+                                    [cancel_at_period_end] => 
+                                    [canceled_at] => 
+                                    [created] => 1507176377
+                                    [current_period_end] => 1509854777
+                                    [current_period_start] => 1507176377
+                                    [customer] => cus_BWTZtkmm134Dfs
+                                    [discount] => 
+                                    [ended_at] => 
+                                    [items] => Array
+                                        (
+                                            [object] => list
+                                            [data] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => si_1B9QcnDuYO5mQc6biB957l9k
+                                                            [object] => subscription_item
+                                                            [created] => 1507176378
+                                                            [metadata] => Array
+                                                                (
+                                                                )
+
+                                                            [plan] => Array
+                                                                (
+                                                                    [id] => Plus
+                                                                    [object] => plan
+                                                                    [amount] => 4999
+                                                                    [created] => 1507155415
+                                                                    [currency] => usd
+                                                                    [interval] => month
+                                                                    [interval_count] => 1
+                                                                    [livemode] => 
+                                                                    [metadata] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [name] => Plus
+                                                                    [statement_descriptor] => 
+                                                                    [trial_period_days] => 
+                                                                )
+
+                                                            [quantity] => 1
+                                                        )
+
+                                                )
+
+                                            [has_more] => 
+                                            [total_count] => 1
+                                            [url] => /v1/subscription_items?subscription=sub_BWTZBxnWA8fvjb
+                                        )
+
+                                    [livemode] => 
+                                    [metadata] => Array
+                                        (
+                                        )
+
+                                    [plan] => Array
+                                        (
+                                            [id] => Plus
+                                            [object] => plan
+                                            [amount] => 4999
+                                            [created] => 1507155415
+                                            [currency] => usd
+                                            [interval] => month
+                                            [interval_count] => 1
+                                            [livemode] => 
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => Plus
+                                            [statement_descriptor] => 
+                                            [trial_period_days] => 
+                                        )
+
+                                    [quantity] => 1
+                                    [start] => 1507176377
+                                    [status] => active
+                                    [tax_percent] => 
+                                    [trial_end] => 
+                                    [trial_start] => 
+                                )
+
+                            [code] => 200
+                        )
+
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 04:06:14 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1433
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_BjodqrDWnQdCrG
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWTZtkmm134Dfs",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507176374,
+  "currency": null,
+  "default_source": "card_1B9QcODuYO5mQc6btaRGLZPc",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9QcODuYO5mQc6btaRGLZPc",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWTZtkmm134Dfs",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 11,
+        "exp_year": 2022,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWTZtkmm134Dfs/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWTZtkmm134Dfs/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWTZtkmm134Dfs
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507176374
+                    [currency] => 
+                    [default_source] => card_1B9QcODuYO5mQc6btaRGLZPc
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9QcODuYO5mQc6btaRGLZPc
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWTZtkmm134Dfs
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 11
+                                            [exp_year] => 2022
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWTZtkmm134Dfs/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWTZtkmm134Dfs/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWTrf9UAGclfqz
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507177446
+            [currency] => 
+            [default_source] => card_1B9QtsDuYO5mQc6bkRb2brBG
+            [delinquent] => 
+            [description] => Churchlify subscription for Gold Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9QtsDuYO5mQc6bkRb2brBG
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWTrf9UAGclfqz
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 11
+                                                    [exp_year] => 2024
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWTrf9UAGclfqz/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                            [plan] => Gold
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWTrf9UAGclfqz/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => Stripe\ApiResponse Object
+                        (
+                            [headers] => Array
+                                (
+                                    [Server] => nginx
+                                    [Date] => Thu, 05 Oct 2017 04:24:08 GMT
+                                    [Content-Type] => application/json
+                                    [Content-Length] => 1575
+                                    [Connection] => keep-alive
+                                    [Access-Control-Allow-Credentials] => true
+                                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                                    [Access-Control-Allow-Origin] => *
+                                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                                    [Access-Control-Max-Age] => 300
+                                    [Cache-Control] => no-cache, no-store
+                                    [Request-Id] => req_t3R4djbIq3sm7k
+                                    [Stripe-Version] => 2017-08-15
+                                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                                )
+
+                            [body] => {
+  "id": "sub_BWTrs6T5DrsFGE",
+  "object": "subscription",
+  "application_fee_percent": null,
+  "billing": "charge_automatically",
+  "cancel_at_period_end": false,
+  "canceled_at": null,
+  "created": 1507177447,
+  "current_period_end": 1509855847,
+  "current_period_start": 1507177447,
+  "customer": "cus_BWTrf9UAGclfqz",
+  "discount": null,
+  "ended_at": null,
+  "items": {
+    "object": "list",
+    "data": [
+      {
+        "id": "si_1B9Qu3DuYO5mQc6bHxkqwH5j",
+        "object": "subscription_item",
+        "created": 1507177447,
+        "metadata": {},
+        "plan": {
+          "id": "Gold",
+          "object": "plan",
+          "amount": 9999,
+          "created": 1507155432,
+          "currency": "usd",
+          "interval": "month",
+          "interval_count": 1,
+          "livemode": false,
+          "metadata": {},
+          "name": "Gold",
+          "statement_descriptor": null,
+          "trial_period_days": null
+        },
+        "quantity": 1
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/subscription_items?subscription=sub_BWTrs6T5DrsFGE"
+  },
+  "livemode": false,
+  "metadata": {},
+  "plan": {
+    "id": "Gold",
+    "object": "plan",
+    "amount": 9999,
+    "created": 1507155432,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {},
+    "name": "Gold",
+    "statement_descriptor": null,
+    "trial_period_days": null
+  },
+  "quantity": 1,
+  "start": 1507177447,
+  "status": "active",
+  "tax_percent": null,
+  "trial_end": null,
+  "trial_start": null
+}
+
+                            [json] => Array
+                                (
+                                    [id] => sub_BWTrs6T5DrsFGE
+                                    [object] => subscription
+                                    [application_fee_percent] => 
+                                    [billing] => charge_automatically
+                                    [cancel_at_period_end] => 
+                                    [canceled_at] => 
+                                    [created] => 1507177447
+                                    [current_period_end] => 1509855847
+                                    [current_period_start] => 1507177447
+                                    [customer] => cus_BWTrf9UAGclfqz
+                                    [discount] => 
+                                    [ended_at] => 
+                                    [items] => Array
+                                        (
+                                            [object] => list
+                                            [data] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => si_1B9Qu3DuYO5mQc6bHxkqwH5j
+                                                            [object] => subscription_item
+                                                            [created] => 1507177447
+                                                            [metadata] => Array
+                                                                (
+                                                                )
+
+                                                            [plan] => Array
+                                                                (
+                                                                    [id] => Gold
+                                                                    [object] => plan
+                                                                    [amount] => 9999
+                                                                    [created] => 1507155432
+                                                                    [currency] => usd
+                                                                    [interval] => month
+                                                                    [interval_count] => 1
+                                                                    [livemode] => 
+                                                                    [metadata] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [name] => Gold
+                                                                    [statement_descriptor] => 
+                                                                    [trial_period_days] => 
+                                                                )
+
+                                                            [quantity] => 1
+                                                        )
+
+                                                )
+
+                                            [has_more] => 
+                                            [total_count] => 1
+                                            [url] => /v1/subscription_items?subscription=sub_BWTrs6T5DrsFGE
+                                        )
+
+                                    [livemode] => 
+                                    [metadata] => Array
+                                        (
+                                        )
+
+                                    [plan] => Array
+                                        (
+                                            [id] => Gold
+                                            [object] => plan
+                                            [amount] => 9999
+                                            [created] => 1507155432
+                                            [currency] => usd
+                                            [interval] => month
+                                            [interval_count] => 1
+                                            [livemode] => 
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => Gold
+                                            [statement_descriptor] => 
+                                            [trial_period_days] => 
+                                        )
+
+                                    [quantity] => 1
+                                    [start] => 1507177447
+                                    [status] => active
+                                    [tax_percent] => 
+                                    [trial_end] => 
+                                    [trial_start] => 
+                                )
+
+                            [code] => 200
+                        )
+
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 04:24:07 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1433
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_p8zlOCItORqdbJ
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWTrf9UAGclfqz",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507177446,
+  "currency": null,
+  "default_source": "card_1B9QtsDuYO5mQc6bkRb2brBG",
+  "delinquent": false,
+  "description": "Churchlify subscription for Gold Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9QtsDuYO5mQc6bkRb2brBG",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWTrf9UAGclfqz",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 11,
+        "exp_year": 2024,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWTrf9UAGclfqz/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWTrf9UAGclfqz/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWTrf9UAGclfqz
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507177446
+                    [currency] => 
+                    [default_source] => card_1B9QtsDuYO5mQc6bkRb2brBG
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Gold Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9QtsDuYO5mQc6bkRb2brBG
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWTrf9UAGclfqz
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 11
+                                            [exp_year] => 2024
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWTrf9UAGclfqz/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWTrf9UAGclfqz/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWV1XDO4RlrRfX
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507181769
+            [currency] => 
+            [default_source] => card_1B9S1PDuYO5mQc6biNwir2sl
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9S1PDuYO5mQc6biNwir2sl
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWV1XDO4RlrRfX
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2023
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWV1XDO4RlrRfX/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                            [plan] => Plus
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWV1XDO4RlrRfX/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => Stripe\ApiResponse Object
+                        (
+                            [headers] => Array
+                                (
+                                    [Server] => nginx
+                                    [Date] => Thu, 05 Oct 2017 05:36:12 GMT
+                                    [Content-Type] => application/json
+                                    [Content-Length] => 1575
+                                    [Connection] => keep-alive
+                                    [Access-Control-Allow-Credentials] => true
+                                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                                    [Access-Control-Allow-Origin] => *
+                                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                                    [Access-Control-Max-Age] => 300
+                                    [Cache-Control] => no-cache, no-store
+                                    [Request-Id] => req_TQYPObaP9L7S1h
+                                    [Stripe-Version] => 2017-08-15
+                                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                                )
+
+                            [body] => {
+  "id": "sub_BWV1IUJG4rW0rX",
+  "object": "subscription",
+  "application_fee_percent": null,
+  "billing": "charge_automatically",
+  "cancel_at_period_end": false,
+  "canceled_at": null,
+  "created": 1507181771,
+  "current_period_end": 1509860171,
+  "current_period_start": 1507181771,
+  "customer": "cus_BWV1XDO4RlrRfX",
+  "discount": null,
+  "ended_at": null,
+  "items": {
+    "object": "list",
+    "data": [
+      {
+        "id": "si_1B9S1nDuYO5mQc6bm7rZhjiM",
+        "object": "subscription_item",
+        "created": 1507181772,
+        "metadata": {},
+        "plan": {
+          "id": "Plus",
+          "object": "plan",
+          "amount": 4999,
+          "created": 1507155415,
+          "currency": "usd",
+          "interval": "month",
+          "interval_count": 1,
+          "livemode": false,
+          "metadata": {},
+          "name": "Plus",
+          "statement_descriptor": null,
+          "trial_period_days": null
+        },
+        "quantity": 1
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/subscription_items?subscription=sub_BWV1IUJG4rW0rX"
+  },
+  "livemode": false,
+  "metadata": {},
+  "plan": {
+    "id": "Plus",
+    "object": "plan",
+    "amount": 4999,
+    "created": 1507155415,
+    "currency": "usd",
+    "interval": "month",
+    "interval_count": 1,
+    "livemode": false,
+    "metadata": {},
+    "name": "Plus",
+    "statement_descriptor": null,
+    "trial_period_days": null
+  },
+  "quantity": 1,
+  "start": 1507181771,
+  "status": "active",
+  "tax_percent": null,
+  "trial_end": null,
+  "trial_start": null
+}
+
+                            [json] => Array
+                                (
+                                    [id] => sub_BWV1IUJG4rW0rX
+                                    [object] => subscription
+                                    [application_fee_percent] => 
+                                    [billing] => charge_automatically
+                                    [cancel_at_period_end] => 
+                                    [canceled_at] => 
+                                    [created] => 1507181771
+                                    [current_period_end] => 1509860171
+                                    [current_period_start] => 1507181771
+                                    [customer] => cus_BWV1XDO4RlrRfX
+                                    [discount] => 
+                                    [ended_at] => 
+                                    [items] => Array
+                                        (
+                                            [object] => list
+                                            [data] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [id] => si_1B9S1nDuYO5mQc6bm7rZhjiM
+                                                            [object] => subscription_item
+                                                            [created] => 1507181772
+                                                            [metadata] => Array
+                                                                (
+                                                                )
+
+                                                            [plan] => Array
+                                                                (
+                                                                    [id] => Plus
+                                                                    [object] => plan
+                                                                    [amount] => 4999
+                                                                    [created] => 1507155415
+                                                                    [currency] => usd
+                                                                    [interval] => month
+                                                                    [interval_count] => 1
+                                                                    [livemode] => 
+                                                                    [metadata] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [name] => Plus
+                                                                    [statement_descriptor] => 
+                                                                    [trial_period_days] => 
+                                                                )
+
+                                                            [quantity] => 1
+                                                        )
+
+                                                )
+
+                                            [has_more] => 
+                                            [total_count] => 1
+                                            [url] => /v1/subscription_items?subscription=sub_BWV1IUJG4rW0rX
+                                        )
+
+                                    [livemode] => 
+                                    [metadata] => Array
+                                        (
+                                        )
+
+                                    [plan] => Array
+                                        (
+                                            [id] => Plus
+                                            [object] => plan
+                                            [amount] => 4999
+                                            [created] => 1507155415
+                                            [currency] => usd
+                                            [interval] => month
+                                            [interval_count] => 1
+                                            [livemode] => 
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => Plus
+                                            [statement_descriptor] => 
+                                            [trial_period_days] => 
+                                        )
+
+                                    [quantity] => 1
+                                    [start] => 1507181771
+                                    [status] => active
+                                    [tax_percent] => 
+                                    [trial_end] => 
+                                    [trial_start] => 
+                                )
+
+                            [code] => 200
+                        )
+
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 05:36:09 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_SPxr5pvge9cwkH
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWV1XDO4RlrRfX",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507181769,
+  "currency": null,
+  "default_source": "card_1B9S1PDuYO5mQc6biNwir2sl",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9S1PDuYO5mQc6biNwir2sl",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWV1XDO4RlrRfX",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2023,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWV1XDO4RlrRfX/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWV1XDO4RlrRfX/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWV1XDO4RlrRfX
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507181769
+                    [currency] => 
+                    [default_source] => card_1B9S1PDuYO5mQc6biNwir2sl
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9S1PDuYO5mQc6biNwir2sl
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWV1XDO4RlrRfX
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2023
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWV1XDO4RlrRfX/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWV1XDO4RlrRfX/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWfKkXtLFnKl6S
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507220103
+            [currency] => 
+            [default_source] => card_1B9bz1DuYO5mQc6b2rX6hCcf
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9bz1DuYO5mQc6b2rX6hCcf
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWfKkXtLFnKl6S
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2023
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfKkXtLFnKl6S/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfKkXtLFnKl6S/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 16:15:04 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_cQbAwxZFqAQhrn
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWfKkXtLFnKl6S",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507220103,
+  "currency": null,
+  "default_source": "card_1B9bz1DuYO5mQc6b2rX6hCcf",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9bz1DuYO5mQc6b2rX6hCcf",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWfKkXtLFnKl6S",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2023,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWfKkXtLFnKl6S/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWfKkXtLFnKl6S/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWfKkXtLFnKl6S
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507220103
+                    [currency] => 
+                    [default_source] => card_1B9bz1DuYO5mQc6b2rX6hCcf
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9bz1DuYO5mQc6b2rX6hCcf
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWfKkXtLFnKl6S
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2023
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfKkXtLFnKl6S/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfKkXtLFnKl6S/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWfioHXMES6lGl
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507221550
+            [currency] => 
+            [default_source] => card_1B9cNNDuYO5mQc6bJvgrwlXO
+            [delinquent] => 
+            [description] => Churchlify subscription for Free Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9cNNDuYO5mQc6bJvgrwlXO
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWfioHXMES6lGl
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2022
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfioHXMES6lGl/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfioHXMES6lGl/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 16:39:10 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_ydqOjstOXKFlLw
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWfioHXMES6lGl",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507221550,
+  "currency": null,
+  "default_source": "card_1B9cNNDuYO5mQc6bJvgrwlXO",
+  "delinquent": false,
+  "description": "Churchlify subscription for Free Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9cNNDuYO5mQc6bJvgrwlXO",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWfioHXMES6lGl",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2022,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWfioHXMES6lGl/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWfioHXMES6lGl/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWfioHXMES6lGl
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507221550
+                    [currency] => 
+                    [default_source] => card_1B9cNNDuYO5mQc6bJvgrwlXO
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Free Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9cNNDuYO5mQc6bJvgrwlXO
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWfioHXMES6lGl
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2022
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfioHXMES6lGl/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfioHXMES6lGl/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWfmQih28GJDbs
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507221759
+            [currency] => 
+            [default_source] => card_1B9cQcDuYO5mQc6bhbKZiEaD
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9cQcDuYO5mQc6bhbKZiEaD
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWfmQih28GJDbs
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2023
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfmQih28GJDbs/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfmQih28GJDbs/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 16:42:40 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_9KSqsRW2D0KCAE
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWfmQih28GJDbs",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507221759,
+  "currency": null,
+  "default_source": "card_1B9cQcDuYO5mQc6bhbKZiEaD",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9cQcDuYO5mQc6bhbKZiEaD",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWfmQih28GJDbs",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2023,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWfmQih28GJDbs/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWfmQih28GJDbs/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWfmQih28GJDbs
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507221759
+                    [currency] => 
+                    [default_source] => card_1B9cQcDuYO5mQc6bhbKZiEaD
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9cQcDuYO5mQc6bhbKZiEaD
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWfmQih28GJDbs
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2023
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfmQih28GJDbs/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfmQih28GJDbs/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWfop5ygMl8b4W
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507221906
+            [currency] => 
+            [default_source] => card_1B9cT7DuYO5mQc6bxJS6Lb0n
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9cT7DuYO5mQc6bxJS6Lb0n
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWfop5ygMl8b4W
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2025
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfop5ygMl8b4W/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfop5ygMl8b4W/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 16:45:06 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_2SXeQTLUH9sVk5
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWfop5ygMl8b4W",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507221906,
+  "currency": null,
+  "default_source": "card_1B9cT7DuYO5mQc6bxJS6Lb0n",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9cT7DuYO5mQc6bxJS6Lb0n",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWfop5ygMl8b4W",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2025,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWfop5ygMl8b4W/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWfop5ygMl8b4W/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWfop5ygMl8b4W
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507221906
+                    [currency] => 
+                    [default_source] => card_1B9cT7DuYO5mQc6bxJS6Lb0n
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9cT7DuYO5mQc6bxJS6Lb0n
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWfop5ygMl8b4W
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2025
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWfop5ygMl8b4W/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWfop5ygMl8b4W/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWj3Tvj8luizse
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507233976
+            [currency] => 
+            [default_source] => card_1B9fbaDuYO5mQc6bbnFYUaRm
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9fbaDuYO5mQc6bbnFYUaRm
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWj3Tvj8luizse
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2023
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWj3Tvj8luizse/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWj3Tvj8luizse/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 20:06:16 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_UbZsYEig5Hn55k
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWj3Tvj8luizse",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507233976,
+  "currency": null,
+  "default_source": "card_1B9fbaDuYO5mQc6bbnFYUaRm",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9fbaDuYO5mQc6bbnFYUaRm",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWj3Tvj8luizse",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2023,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWj3Tvj8luizse/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWj3Tvj8luizse/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWj3Tvj8luizse
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507233976
+                    [currency] => 
+                    [default_source] => card_1B9fbaDuYO5mQc6bbnFYUaRm
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9fbaDuYO5mQc6bbnFYUaRm
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWj3Tvj8luizse
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2023
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWj3Tvj8luizse/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWj3Tvj8luizse/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)
+Stripe\Customer Object
+(
+    [_opts:protected] => Stripe\Util\RequestOptions Object
+        (
+            [headers] => Array
+                (
+                )
+
+            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+        )
+
+    [_values:protected] => Array
+        (
+            [id] => cus_BWj640tAmSLhMX
+            [object] => customer
+            [account_balance] => 0
+            [created] => 1507234159
+            [currency] => 
+            [default_source] => card_1B9fekDuYO5mQc6bnI5zsWr1
+            [delinquent] => 
+            [description] => Churchlify subscription for Plus Plan
+            [discount] => 
+            [email] => churchlify@gmail.com
+            [livemode] => 
+            [metadata] => Stripe\AttachedObject Object
+                (
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [shipping] => 
+            [sources] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Stripe\Card Object
+                                        (
+                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                (
+                                                    [headers] => Array
+                                                        (
+                                                        )
+
+                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                )
+
+                                            [_values:protected] => Array
+                                                (
+                                                    [id] => card_1B9fekDuYO5mQc6bnI5zsWr1
+                                                    [object] => card
+                                                    [address_city] => 
+                                                    [address_country] => 
+                                                    [address_line1] => 
+                                                    [address_line1_check] => 
+                                                    [address_line2] => 
+                                                    [address_state] => 
+                                                    [address_zip] => 
+                                                    [address_zip_check] => 
+                                                    [brand] => Visa
+                                                    [country] => US
+                                                    [customer] => cus_BWj640tAmSLhMX
+                                                    [cvc_check] => pass
+                                                    [dynamic_last4] => 
+                                                    [exp_month] => 2
+                                                    [exp_year] => 2022
+                                                    [fingerprint] => PpxgjKIKou8agBwU
+                                                    [funding] => credit
+                                                    [last4] => 4242
+                                                    [metadata] => Stripe\AttachedObject Object
+                                                        (
+                                                            [_opts:protected] => Stripe\Util\RequestOptions Object
+                                                                (
+                                                                    [headers] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                                                                )
+
+                                                            [_values:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                                (
+                                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                                        (
+                                                                        )
+
+                                                                )
+
+                                                            [_retrieveOptions:protected] => Array
+                                                                (
+                                                                )
+
+                                                            [_lastResponse:protected] => 
+                                                        )
+
+                                                    [name] => 
+                                                    [tokenization_method] => 
+                                                )
+
+                                            [_unsavedValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_transientValues:protected] => Stripe\Util\Set Object
+                                                (
+                                                    [_elts:Stripe\Util\Set:private] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                            [_retrieveOptions:protected] => Array
+                                                (
+                                                )
+
+                                            [_lastResponse:protected] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWj640tAmSLhMX/sources
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+            [subscriptions] => Stripe\Collection Object
+                (
+                    [_requestParams:protected] => Array
+                        (
+                        )
+
+                    [_opts:protected] => Stripe\Util\RequestOptions Object
+                        (
+                            [headers] => Array
+                                (
+                                )
+
+                            [apiKey] => sk_test_rcSCdWedT8NYHnNqXGtX1zfk
+                        )
+
+                    [_values:protected] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWj640tAmSLhMX/subscriptions
+                        )
+
+                    [_unsavedValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_transientValues:protected] => Stripe\Util\Set Object
+                        (
+                            [_elts:Stripe\Util\Set:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [_retrieveOptions:protected] => Array
+                        (
+                        )
+
+                    [_lastResponse:protected] => 
+                )
+
+        )
+
+    [_unsavedValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_transientValues:protected] => Stripe\Util\Set Object
+        (
+            [_elts:Stripe\Util\Set:private] => Array
+                (
+                )
+
+        )
+
+    [_retrieveOptions:protected] => Array
+        (
+        )
+
+    [_lastResponse:protected] => Stripe\ApiResponse Object
+        (
+            [headers] => Array
+                (
+                    [Server] => nginx
+                    [Date] => Thu, 05 Oct 2017 20:09:20 GMT
+                    [Content-Type] => application/json
+                    [Content-Length] => 1432
+                    [Connection] => keep-alive
+                    [Access-Control-Allow-Credentials] => true
+                    [Access-Control-Allow-Methods] => GET, POST, HEAD, OPTIONS, DELETE
+                    [Access-Control-Allow-Origin] => *
+                    [Access-Control-Expose-Headers] => X-Stripe-Privileged-Session-Required,stripe-manage-version,X-Stripe-External-Auth-Required
+                    [Access-Control-Max-Age] => 300
+                    [Cache-Control] => no-cache, no-store
+                    [Request-Id] => req_UqYtfKgRIbNjve
+                    [Stripe-Version] => 2017-08-15
+                    [Strict-Transport-Security] => max-age=31556926; includeSubDomains
+                )
+
+            [body] => {
+  "id": "cus_BWj640tAmSLhMX",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1507234159,
+  "currency": null,
+  "default_source": "card_1B9fekDuYO5mQc6bnI5zsWr1",
+  "delinquent": false,
+  "description": "Churchlify subscription for Plus Plan",
+  "discount": null,
+  "email": "churchlify@gmail.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1B9fekDuYO5mQc6bnI5zsWr1",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_BWj640tAmSLhMX",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 2,
+        "exp_year": 2022,
+        "fingerprint": "PpxgjKIKou8agBwU",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": null,
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_BWj640tAmSLhMX/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/customers/cus_BWj640tAmSLhMX/subscriptions"
+  }
+}
+
+            [json] => Array
+                (
+                    [id] => cus_BWj640tAmSLhMX
+                    [object] => customer
+                    [account_balance] => 0
+                    [created] => 1507234159
+                    [currency] => 
+                    [default_source] => card_1B9fekDuYO5mQc6bnI5zsWr1
+                    [delinquent] => 
+                    [description] => Churchlify subscription for Plus Plan
+                    [discount] => 
+                    [email] => churchlify@gmail.com
+                    [livemode] => 
+                    [metadata] => Array
+                        (
+                        )
+
+                    [shipping] => 
+                    [sources] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => card_1B9fekDuYO5mQc6bnI5zsWr1
+                                            [object] => card
+                                            [address_city] => 
+                                            [address_country] => 
+                                            [address_line1] => 
+                                            [address_line1_check] => 
+                                            [address_line2] => 
+                                            [address_state] => 
+                                            [address_zip] => 
+                                            [address_zip_check] => 
+                                            [brand] => Visa
+                                            [country] => US
+                                            [customer] => cus_BWj640tAmSLhMX
+                                            [cvc_check] => pass
+                                            [dynamic_last4] => 
+                                            [exp_month] => 2
+                                            [exp_year] => 2022
+                                            [fingerprint] => PpxgjKIKou8agBwU
+                                            [funding] => credit
+                                            [last4] => 4242
+                                            [metadata] => Array
+                                                (
+                                                )
+
+                                            [name] => 
+                                            [tokenization_method] => 
+                                        )
+
+                                )
+
+                            [has_more] => 
+                            [total_count] => 1
+                            [url] => /v1/customers/cus_BWj640tAmSLhMX/sources
+                        )
+
+                    [subscriptions] => Array
+                        (
+                            [object] => list
+                            [data] => Array
+                                (
+                                )
+
+                            [has_more] => 
+                            [total_count] => 0
+                            [url] => /v1/customers/cus_BWj640tAmSLhMX/subscriptions
+                        )
+
+                )
+
+            [code] => 200
+        )
+
+)

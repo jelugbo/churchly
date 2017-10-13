@@ -1,0 +1,692 @@
+[16-Sep-2017 18:16:48 America/Chicago] PHP Notice:  Undefined variable: _SESSION in C:\apache\apache24\htdocs\church\app\smser.php on line 20
+[16-Sep-2017 18:16:48 America/Chicago] PHP Stack trace:
+[16-Sep-2017 18:16:48 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\smser.php:0
+[16-Sep-2017 18:16:48 America/Chicago] PHP Notice:  Undefined index: isMMS in C:\apache\apache24\htdocs\church\app\smser.php on line 22
+[16-Sep-2017 18:16:48 America/Chicago] PHP Stack trace:
+[16-Sep-2017 18:16:48 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\smser.php:0
+[03-Oct-2017 22:30:33 Africa/Lagos] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\apache\apache24\htdocs\church\app\signup.php on line 113
+[03-Oct-2017 16:31:10 America/Chicago] PHP Fatal error:  Class 'UserPlanQuery' not found in C:\apache\apache24\htdocs\church\app\signup.php on line 12
+[03-Oct-2017 16:31:10 America/Chicago] PHP Stack trace:
+[03-Oct-2017 16:31:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[03-Oct-2017 16:31:34 America/Chicago] PHP Fatal error:  Class 'UserPlanQuery' not found in C:\apache\apache24\htdocs\church\app\signup.php on line 12
+[03-Oct-2017 16:31:34 America/Chicago] PHP Stack trace:
+[03-Oct-2017 16:31:34 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[03-Oct-2017 23:03:46 Africa/Lagos] PHP Parse error:  syntax error, unexpected '}' in C:\apache\apache24\htdocs\church\app\signup.php on line 113
+[04-Oct-2017 12:35:22 America/Chicago] PHP Notice:  Undefined index: IsAdmin in C:\apache\apache24\htdocs\church\app\signup.php on line 19
+[04-Oct-2017 12:35:22 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:35:22 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 12:53:11 America/Chicago] PHP Notice:  Undefined index: IsAdmin in C:\apache\apache24\htdocs\church\app\signup.php on line 19
+[04-Oct-2017 12:53:11 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:53:11 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 12:53:19 America/Chicago] PHP Notice:  Undefined index: IsAdmin in C:\apache\apache24\htdocs\church\app\signup.php on line 19
+[04-Oct-2017 12:53:19 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:53:19 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 12:57:53 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 87
+[04-Oct-2017 12:57:53 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:57:53 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 13:00:59 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 87
+[04-Oct-2017 13:00:59 America/Chicago] PHP Stack trace:
+[04-Oct-2017 13:00:59 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:16:00 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 93
+[04-Oct-2017 15:16:00 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:16:00 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:17:15 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 93
+[04-Oct-2017 15:17:15 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:17:15 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:18:44 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 15:18:44 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:18:44 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:19:21 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 15:19:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:19:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:22:24 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 15:22:24 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:22:24 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:23:10 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 15:23:10 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:23:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 15:24:02 America/Chicago] PHP Fatal error:  Call to undefined function get_settings_array() in C:\apache\apache24\htdocs\church\app\signup.php on line 13
+[04-Oct-2017 15:24:02 America/Chicago] PHP Stack trace:
+[04-Oct-2017 15:24:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:06:31 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 17:06:31 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:06:31 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:19:03 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 15
+[04-Oct-2017 17:19:03 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:19:03 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:19:04 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 16
+[04-Oct-2017 17:19:04 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:19:04 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setStatus(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 207 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 505
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:207
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 507
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:207
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 511
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:207
+[04-Oct-2017 17:25:21 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setDescription(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 209 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 465
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:209
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 467
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:209
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 471
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:209
+[04-Oct-2017 17:25:21 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setReference(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 210 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 525
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 527
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 531
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 17:25:21 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setLog(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 211 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 545
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 547
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 551
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 17:25:21 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 15
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 17:25:21 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 16
+[04-Oct-2017 17:25:21 America/Chicago] PHP Stack trace:
+[04-Oct-2017 17:25:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:00:49 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[04-Oct-2017 23:00:49 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:00:49 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:01:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 15
+[04-Oct-2017 23:01:54 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:01:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:01:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 16
+[04-Oct-2017 23:01:54 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:01:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:03:42 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 15
+[04-Oct-2017 23:03:42 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:03:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:03:42 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\signup.php on line 16
+[04-Oct-2017 23:03:42 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:03:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setStatus(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 208 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 505
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:208
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 507
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:208
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 511
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setStatus($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:208
+[04-Oct-2017 23:09:26 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setDescription(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 210 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 465
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 467
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 471
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setDescription($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:210
+[04-Oct-2017 23:09:26 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setReference(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 211 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 525
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 527
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 531
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setReference($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:211
+[04-Oct-2017 23:09:26 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setLog(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 212 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 545
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:212
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 547
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:212
+[04-Oct-2017 23:09:26 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 551
+[04-Oct-2017 23:09:26 America/Chicago] PHP Stack trace:
+[04-Oct-2017 23:09:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[04-Oct-2017 23:09:26 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[04-Oct-2017 23:09:26 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:212
+[04-Oct-2017 23:24:09 America/Chicago] Stripe Notice: Undefined property of Stripe\Customer instance: subscription
+[04-Oct-2017 23:26:06 America/Chicago] Stripe Notice: Undefined property of Stripe\Collection instance: id
+[04-Oct-2017 23:26:09 America/Chicago] Stripe Notice: Undefined property of Stripe\Collection instance: id
+[04-Oct-2017 23:34:23 America/Chicago] Stripe Notice: Undefined property of Stripe\Customer instance: _lastResponse
+[04-Oct-2017 23:34:25 America/Chicago] Stripe Notice: Undefined property of Stripe\Customer instance: _lastResponse
+[04-Oct-2017 23:34:37 America/Chicago] Stripe Notice: Undefined property of Stripe\Customer instance: lastResponse
+[04-Oct-2017 23:34:39 America/Chicago] Stripe Notice: Undefined property of Stripe\Customer instance: lastResponse
+[05-Oct-2017 00:34:55 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 00:34:55 America/Chicago] PHP Stack trace:
+[05-Oct-2017 00:34:55 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:13:10 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 11:13:10 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:13:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:14:15 America/Chicago] Stripe Notice: Undefined property of Stripe\Collection instance: status
+[05-Oct-2017 11:14:23 America/Chicago] Stripe Notice: Undefined property of Stripe\Collection instance: id
+[05-Oct-2017 11:14:25 America/Chicago] PHP Warning:  Missing argument 1 for Base\UserPayment::setLog(), called in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 213 and defined in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 545
+[05-Oct-2017 11:14:25 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:14:25 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:14:25 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:14:25 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:213
+[05-Oct-2017 11:14:25 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 547
+[05-Oct-2017 11:14:25 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:14:25 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:14:25 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:14:25 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:213
+[05-Oct-2017 11:14:25 America/Chicago] PHP Notice:  Undefined variable: v in C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php on line 551
+[05-Oct-2017 11:14:25 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:14:25 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:14:25 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:14:25 America/Chicago] PHP   3. Base\UserPayment->setLog($v = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:213
+[05-Oct-2017 11:14:32 America/Chicago] PHP Warning:  Error while sending QUERY packet. PID=5928 in C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Adapter\Pdo\PdoStatement.php on line 57
+[05-Oct-2017 11:14:32 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:14:32 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:14:32 America/Chicago] PHP   2. create_subscription($email = *uninitialized*, $pass = *uninitialized*, $parish = *uninitialized*, $plan_id = *uninitialized*, $token = *uninitialized*, $params = *uninitialized*) C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:14:32 America/Chicago] PHP   3. Base\UserPayment->save($con = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\functions.php:214
+[05-Oct-2017 11:14:32 America/Chicago] PHP   4. Propel\Runtime\Connection\ConnectionWrapper->transaction($callable = *uninitialized*) C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php:786
+[05-Oct-2017 11:14:32 America/Chicago] PHP   5. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Connection\TransactionTrait.php:35}(*uninitialized*) C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Connection\TransactionTrait.php:35
+[05-Oct-2017 11:14:32 America/Chicago] PHP   6. Base\UserPayment->Base\{closure}() C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Connection\TransactionTrait.php:35
+[05-Oct-2017 11:14:32 America/Chicago] PHP   7. Base\UserPayment->doSave($con = *uninitialized*) C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php:773
+[05-Oct-2017 11:14:32 America/Chicago] PHP   8. Base\UserPayment->doInsert($con = *uninitialized*) C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php:809
+[05-Oct-2017 11:14:32 America/Chicago] PHP   9. Propel\Runtime\Connection\StatementWrapper->execute($input_parameters = *uninitialized*) C:\apache\apache24\htdocs\church\api\classes\Base\UserPayment.php:898
+[05-Oct-2017 11:14:32 America/Chicago] PHP  10. Propel\Runtime\Adapter\Pdo\PdoStatement->execute($parameters = *uninitialized*) C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Connection\StatementWrapper.php:194
+[05-Oct-2017 11:14:32 America/Chicago] PHP  11. PDOStatement->execute(*uninitialized*) C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Adapter\Pdo\PdoStatement.php:57
+[05-Oct-2017 11:14:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2006 MySQL server has gone away' in C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Adapter\Pdo\PdoStatement.php:57
+Stack trace:
+#0 C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Adapter\Pdo\PdoStatement.php(57): PDOStatement->execute(NULL)
+#1 C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\Connection\StatementWrapper.php(194): Propel\Runtime\Adapter\Pdo\PdoStatement->execute(NULL)
+#2 C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\ActiveQuery\Criteria.php(2644): Propel\Runtime\Connection\StatementWrapper->execute()
+#3 C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\ActiveQuery\ModelCriteria.php(1988): Propel\Runtime\ActiveQuery\Criteria->doSelect(Object(Propel\Runtime\Connection\ConnectionWrapper))
+#4 C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\ActiveQue in C:\apache\apache24\htdocs\church\api\vendor\propel\propel\src\Propel\Runtime\ActiveQuery\Criteria.php on line 2650
+[05-Oct-2017 11:38:23 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 11:38:23 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:38:23 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:39:12 America/Chicago] PHP Notice:  Undefined property: UserSubscription::$current_period_start in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 222
+[05-Oct-2017 11:39:12 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:39:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:39:12 America/Chicago] PHP   2. create_subscription() C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:39:12 America/Chicago] PHP Notice:  Undefined property: UserSubscription::$current_period_end in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 223
+[05-Oct-2017 11:39:12 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:39:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:39:12 America/Chicago] PHP   2. create_subscription() C:\apache\apache24\htdocs\church\app\signup.php:14
+[05-Oct-2017 11:41:31 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 11:41:31 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:41:31 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 11:44:17 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 11:44:17 America/Chicago] PHP Stack trace:
+[05-Oct-2017 11:44:17 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:27:12 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:27:12 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:27:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:28:44 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:28:44 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:28:44 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:29:51 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:29:51 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:29:51 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:30:13 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:30:13 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:30:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:30:25 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:30:25 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:30:25 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:31:07 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:31:07 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:31:07 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:32:39 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:32:39 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:32:39 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:50:08 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:50:08 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:50:08 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:50:16 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:50:16 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:50:16 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 12:52:02 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 12:52:02 America/Chicago] PHP Stack trace:
+[05-Oct-2017 12:52:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 13:24:44 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[05-Oct-2017 13:24:44 America/Chicago] PHP Stack trace:
+[05-Oct-2017 13:24:44 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[05-Oct-2017 14:52:16 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[05-Oct-2017 14:52:16 America/Chicago] PHP Stack trace:
+[05-Oct-2017 14:52:16 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[05-Oct-2017 15:04:47 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 15:04:47 America/Chicago] PHP Stack trace:
+[05-Oct-2017 15:04:47 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 15:08:24 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[05-Oct-2017 15:08:24 America/Chicago] PHP Stack trace:
+[05-Oct-2017 15:08:24 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[05-Oct-2017 15:13:52 America/Chicago] PHP Notice:  Undefined index: UserId in C:\apache\apache24\htdocs\church\app\sms.php on line 66
+[05-Oct-2017 15:13:52 America/Chicago] PHP Stack trace:
+[05-Oct-2017 15:13:52 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\sms.php:0
+[05-Oct-2017 15:13:52 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 855
+[05-Oct-2017 15:13:52 America/Chicago] PHP Stack trace:
+[05-Oct-2017 15:13:52 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\sms.php:0
+[05-Oct-2017 15:13:52 America/Chicago] PHP   2. get_user_mileage($user = *uninitialized*, $opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\sms.php:66
+[05-Oct-2017 15:15:02 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[05-Oct-2017 15:15:02 America/Chicago] PHP Stack trace:
+[05-Oct-2017 15:15:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[05-Oct-2017 21:30:38 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[05-Oct-2017 21:30:38 America/Chicago] PHP Stack trace:
+[05-Oct-2017 21:30:38 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[06-Oct-2017 20:15:44 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[06-Oct-2017 20:15:44 America/Chicago] PHP Stack trace:
+[06-Oct-2017 20:15:44 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[06-Oct-2017 21:46:51 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[06-Oct-2017 21:46:51 America/Chicago] PHP Stack trace:
+[06-Oct-2017 21:46:51 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[06-Oct-2017 21:47:02 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 266
+[06-Oct-2017 21:47:02 America/Chicago] PHP Stack trace:
+[06-Oct-2017 21:47:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:36 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:17:36 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:36 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:36 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:17:36 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:17:36 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:36 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:36 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:17:36 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:17:36 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:36 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:36 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:17:42 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:17:42 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:42 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:17:42 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:17:42 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:42 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:17:42 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:17:42 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:17:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:17:42 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:10 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:18:10 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:10 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:18:10 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:18:10 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:10 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:10 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:18:10 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:10 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:10 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:13 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:18:13 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:13 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:18:13 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:18:13 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:13 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:13 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:18:13 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:13 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:29 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:18:29 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:29 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:29 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:18:33 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:18:33 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:33 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:33 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:33 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:18:33 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:33 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:33 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:18:51 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:18:51 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:51 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:51 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:18:55 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:18:55 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:18:55 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:18:55 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:19:24 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:19:24 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:24 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:24 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:19:30 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:19:30 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:30 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:30 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:19:30 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:19:30 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:30 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:30 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:19:30 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:19:30 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:30 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:30 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:19:40 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:19:40 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:40 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:19:40 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:19:40 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:40 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:19:40 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:19:40 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:19:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:19:40 America/Chicago] PHP   2. get_user_mileage() C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:20:29 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 854
+[07-Oct-2017 00:20:29 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:20:29 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:20:29 America/Chicago] PHP   2. get_user_plan() C:\apache\apache24\htdocs\church\app\devotions.php:35
+[07-Oct-2017 00:20:30 America/Chicago] PHP Notice:  Undefined index: uid in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 865
+[07-Oct-2017 00:20:30 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:20:30 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:20:30 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:20:30 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 867
+[07-Oct-2017 00:20:30 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:20:30 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:20:30 America/Chicago] PHP   2. get_user_mileage($opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:36
+[07-Oct-2017 00:20:45 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[07-Oct-2017 00:20:45 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:20:45 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[07-Oct-2017 00:21:26 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 275
+[07-Oct-2017 00:21:26 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:21:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:40:58 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:40:58 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:40:58 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:42:58 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:42:58 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:42:58 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:46:03 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:46:03 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:46:03 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:47:49 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:47:49 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:47:49 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:47:57 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:47:57 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:47:57 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 00:54:36 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 00:54:36 America/Chicago] PHP Stack trace:
+[07-Oct-2017 00:54:36 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:08:33 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:08:33 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:08:33 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:08:42 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:08:42 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:08:42 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:10:24 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:10:24 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:10:24 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:12:17 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:12:17 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:12:17 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:16:02 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:16:02 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:16:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:42:51 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:42:51 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:42:51 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 01:43:00 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[07-Oct-2017 01:43:00 America/Chicago] PHP Stack trace:
+[07-Oct-2017 01:43:00 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[07-Oct-2017 12:57:14 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[07-Oct-2017 12:57:14 America/Chicago] PHP Stack trace:
+[07-Oct-2017 12:57:14 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[07-Oct-2017 16:42:47 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[07-Oct-2017 16:42:47 America/Chicago] PHP Stack trace:
+[07-Oct-2017 16:42:47 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[07-Oct-2017 18:35:18 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[07-Oct-2017 18:35:18 America/Chicago] PHP Stack trace:
+[07-Oct-2017 18:35:18 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[08-Oct-2017 12:05:09 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[08-Oct-2017 12:05:09 America/Chicago] PHP Stack trace:
+[08-Oct-2017 12:05:09 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0
+[09-Oct-2017 09:29:26 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[09-Oct-2017 09:29:26 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:29:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[09-Oct-2017 09:29:27 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[09-Oct-2017 09:29:27 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:29:27 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:29:27 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[09-Oct-2017 09:29:27 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:29:27 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:29:27 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[09-Oct-2017 09:29:27 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:29:27 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:29:27 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[09-Oct-2017 09:29:27 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:29:27 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:41:13 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[09-Oct-2017 09:41:13 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:41:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:41:13 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[09-Oct-2017 09:41:13 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:41:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:41:13 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[09-Oct-2017 09:41:13 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:41:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 09:41:13 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[09-Oct-2017 09:41:13 America/Chicago] PHP Stack trace:
+[09-Oct-2017 09:41:13 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 10:00:36 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[09-Oct-2017 10:00:36 America/Chicago] PHP Stack trace:
+[09-Oct-2017 10:00:36 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[09-Oct-2017 19:40:56 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[09-Oct-2017 19:40:56 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:40:56 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[09-Oct-2017 19:40:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[09-Oct-2017 19:40:56 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:40:56 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:40:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[09-Oct-2017 19:40:56 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:40:56 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:40:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[09-Oct-2017 19:40:56 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:40:56 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:40:56 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[09-Oct-2017 19:40:56 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:40:56 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:41:26 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 930
+[09-Oct-2017 19:41:26 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:26 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\events.php:0
+[09-Oct-2017 19:41:26 America/Chicago] PHP   2. get_user_mileage($user = *uninitialized*, $opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\events.php:43
+[09-Oct-2017 19:41:33 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 930
+[09-Oct-2017 19:41:33 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:33 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\events.php:0
+[09-Oct-2017 19:41:33 America/Chicago] PHP   2. get_user_mileage($user = *uninitialized*, $opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\events.php:43
+[09-Oct-2017 19:41:39 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 930
+[09-Oct-2017 19:41:39 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:39 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\events.php:0
+[09-Oct-2017 19:41:39 America/Chicago] PHP   2. get_user_mileage($user = *uninitialized*, $opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\events.php:43
+[09-Oct-2017 19:41:50 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[09-Oct-2017 19:41:50 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:50 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:41:50 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[09-Oct-2017 19:41:50 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:50 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:41:50 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[09-Oct-2017 19:41:50 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:50 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:41:50 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[09-Oct-2017 19:41:50 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:41:50 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 19:42:08 America/Chicago] PHP Fatal error:  Call to a member function getPlanId() on a non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 930
+[09-Oct-2017 19:42:08 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:42:08 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[09-Oct-2017 19:42:08 America/Chicago] PHP   2. get_user_mileage($user = *uninitialized*, $opt = *uninitialized*) C:\apache\apache24\htdocs\church\app\devotions.php:44
+[09-Oct-2017 19:42:54 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[09-Oct-2017 19:42:54 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:42:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[09-Oct-2017 19:43:21 America/Chicago] PHP Notice:  Undefined variable: obj_about in C:\apache\apache24\htdocs\church\app\devotions.php on line 274
+[09-Oct-2017 19:43:21 America/Chicago] PHP Stack trace:
+[09-Oct-2017 19:43:21 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\devotions.php:0
+[09-Oct-2017 22:30:11 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[09-Oct-2017 22:30:11 America/Chicago] PHP Stack trace:
+[09-Oct-2017 22:30:11 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[09-Oct-2017 22:30:12 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[09-Oct-2017 22:30:12 America/Chicago] PHP Stack trace:
+[09-Oct-2017 22:30:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 22:30:12 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[09-Oct-2017 22:30:12 America/Chicago] PHP Stack trace:
+[09-Oct-2017 22:30:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 22:30:12 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[09-Oct-2017 22:30:12 America/Chicago] PHP Stack trace:
+[09-Oct-2017 22:30:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[09-Oct-2017 22:30:12 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[09-Oct-2017 22:30:12 America/Chicago] PHP Stack trace:
+[09-Oct-2017 22:30:12 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:28:44 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\login.php on line 180
+[10-Oct-2017 21:28:44 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:28:44 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\login.php:0
+[10-Oct-2017 21:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:28:45 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:28:45 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:28:45 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:28:45 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:28:45 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:28:45 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:28:45 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:28:45 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:28:45 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:32:37 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:32:37 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:32:37 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:32:37 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:32:37 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:32:37 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:32:37 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:32:37 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:32:37 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:32:37 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:32:37 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:32:37 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:34:40 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:34:40 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:34:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:34:40 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:34:40 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:34:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:34:40 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:34:40 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:34:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:34:40 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:34:40 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:34:40 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:36:28 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:36:28 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:36:28 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:36:28 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:36:28 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:36:28 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:36:28 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:36:28 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:36:28 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:36:28 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:36:28 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:36:28 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:38:09 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:38:09 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:38:09 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:38:09 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:38:09 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:38:09 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:38:09 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:38:09 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:38:09 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:38:09 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:38:09 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:38:09 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:39:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:39:54 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:39:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:39:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:39:54 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:39:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:39:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:39:54 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:39:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:39:54 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:39:54 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:39:54 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:47:46 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:47:46 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:47:46 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:47:46 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:47:46 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:47:46 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:47:46 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:47:46 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:47:46 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:47:46 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:47:46 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:47:46 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:49:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 307
+[10-Oct-2017 21:49:02 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:49:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:49:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 320
+[10-Oct-2017 21:49:02 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:49:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:49:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 333
+[10-Oct-2017 21:49:02 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:49:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[10-Oct-2017 21:49:02 America/Chicago] PHP Notice:  Trying to get property of non-object in C:\apache\apache24\htdocs\church\app\index.php on line 346
+[10-Oct-2017 21:49:02 America/Chicago] PHP Stack trace:
+[10-Oct-2017 21:49:02 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\index.php:0
+[11-Oct-2017 09:14:53 America/Chicago] PHP Notice:  Undefined variable: alert_message in C:\apache\apache24\htdocs\church\app\signup.php on line 94
+[11-Oct-2017 09:14:53 America/Chicago] PHP Stack trace:
+[11-Oct-2017 09:14:53 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\signup.php:0

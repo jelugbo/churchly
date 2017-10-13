@@ -1,0 +1,4 @@
+[09-Oct-2017 10:09:06 America/Chicago] PHP Warning:  Attempt to assign property of non-object in C:\apache\apache24\htdocs\church\app\assets\functions.php on line 472
+[09-Oct-2017 10:09:06 America/Chicago] PHP Stack trace:
+[09-Oct-2017 10:09:06 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\app\assets\ajax_interface.php:0
+[09-Oct-2017 10:09:06 America/Chicago] PHP   2. send_welcome_letter($parish = *uninitialized*, $user = *uninitialized*, $login = *uninitialized*) C:\apache\apache24\htdocs\church\app\assets\ajax_interface.php:45

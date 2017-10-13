@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <title>Churchlify | Penultimate Church Engagement App</title>
+
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Owl Carousel CSS -->
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+        <!-- Icon CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+		<link href="app/assets/plugins/bootstrap-sweetalert/sweet-alert.css" rel="stylesheet" type="text/css">
+
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+
+    <body data-spy="scroll" data-target="#navbar-menu">
+
+        <!-- Navbar -->
+        <div class="navbar navbar-custom sticky navbar-fixed-top" role="navigation" id="sticky-nav">
+            <div class="container">
+
+                <!-- Navbar-header -->
+                <div class="navbar-header">
+
+                    <!-- Responsive menu button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <!-- LOGO -->
+                    <a class="navbar-brand logo" href="index.html" style="padding-top: 1px;">
+                        <img src="images/logo_transparent.png" width="100px" height="60px">
+                        <!--Churchl<span class="text-custom">i</span>fy-->
+                    </a>
+
+                </div>
+                <!-- end navbar-header -->
+
+                <!-- menu -->
+                <div class="navbar-collapse collapse" id="navbar-menu">
+
+                    <!-- Navbar right -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="/#features" class="nav-link">Features</a>
+                        </li>
+                        <li>
+                            <a href="/#pricing" class="nav-link">Plans</a>
+                        </li>
+                        <li>
+                            <a href="/#clients" class="nav-link">Download</a>
+                        </li>
+                        <li>
+                            <a href="/app">Login</a>
+                        </li>
+                        <li>
+                            <a href="feedback.html" class="btn btn-white-bordered navbar-btn">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--/Menu -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- End navbar-custom -->
+
+
+
+        <!-- HOME -->
+        <section class="home bg-img-1" id="home">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <div class="home-fullscreen">
+                            <div class="full-screen">
+                                <div class="home-wrapper home-wrapper-alt">
+                                   <div class="container">
+										<div class="row text-center">
+											<div class="col-sm-3 col-xs-6 first-box">
+											<h1><span class="glyphicon glyphicon-earphone"></span></h1>
+											<h3>Phone</h3>
+											<p>+1832-614-6005</p><br>
+										</div>
+										<div class="col-sm-3 col-xs-6 second-box">
+											<h1><span class="glyphicon glyphicon-home"></span></h1>
+											<h3>Location</h3>
+											<p>8550 E. McDowell Rd.</p><br>
+										</div>
+										<div class="col-sm-3 col-xs-6 third-box">
+											<h1><span class="glyphicon glyphicon-send"></span></h1>
+											<h3>E-mail</h3>
+											<p>hello@churchlify.com</p><br>
+										</div>
+										<div class="col-sm-3 col-xs-6 fourth-box">
+											<h1><span class="glyphicon glyphicon-leaf"></span></h1>
+											<h3>Web</h3>
+											<p>www.churchlify.com</p><br>
+										</div>
+										</div>
+									</div>
+									<div style="padding-top:100px;">
+									<form class="form-horizontal group-border-dashed" id="contact" action="#">
+												<div class="form-group">
+													<label class="col-sm-3 control-label text-white">Full Name</label>
+													<div class="col-sm-6">
+														<input type="text" id="name" class="form-control" required placeholder="Enter your full name" />
+													</div>
+												</div>
+												
+												<div class="form-group">
+													<label class="col-sm-3 control-label text-white">E-Mail</label>
+													<div class="col-sm-6">
+														<input type="email" id="email" class="form-control" required parsley-type="email" parsley-trigger="change" placeholder="Enter a valid e-mail" />
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-sm-3 control-label text-white">Phone Number</label>
+													<div class="col-sm-6">
+														<input data-parsley-type="number" type="text" id="phone" class="form-control" required placeholder="Enter only numbers" />
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-sm-3 control-label text-white">Parish Name</label>
+													<div class="col-sm-6">
+														<input data-parsley-type="alphanum" type="text" id="parish" class="form-control" required placeholder="Enter your church / parish name" />
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-sm-3 control-label text-white">Message</label>
+													<div class="col-sm-6">
+														<textarea roow="5" id="msg" required class="form-control"></textarea>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-sm-offset-3 col-sm-9 m-t-15 text-center">
+														<button type="submit" class="btn btn-primary">
+															Submit
+														</button>
+														<button type="reset" class="btn btn-default m-l-5">
+															Cancel
+														</button>
+													</div>
+												</div>
+											</form>
+											</div>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HOME -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <a class="navbar-brand logo" href="index.html" style="padding-top: 1px;">
+                            <img src="images/logo_transparent.png" width="100px" height="60px">
+                            <!--Churchl<span class="text-custom">i</span>fy-->
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-lg-offset-3 col-md-7">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#clients">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </footer>
+        <!-- End Footer -->
+        
+
+        <!-- Back to top -->    
+        <a href="#" class="back-to-top" id="back-to-top"> <i class="fa fa-angle-up"></i> </a>
+
+
+        <!-- js placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Jquery easing -->                                                      
+        <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+
+        <!-- Owl Carousel -->                                                      
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+        <!--sticky header-->
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+
+        <!--common script for all pages-->
+        <script src="js/jquery.app.js"></script>
+			<!-- Sweet-Alert  -->
+	<script src="app/assets/plugins/bootstrap-sweetalert/sweet-alert.min.js"></script>
+	<script src="app/assets/pages/jquery.sweet-alert.init.js"></script>
+
+        <script type="text/javascript">
+		$("#contact").submit(function(event){
+			var topic = 'Churchfily - contact form message from: ' + $("#name").val(); 
+			var body = 'You have a new message from churchlify website, please find  details below \n';
+			body += '\n Name : ' + $("#name").val();
+			body += '\n Email : ' + $("#email").val();
+			body += '\n Phone : ' + $("#phone").val();
+			body += '\n Parish : ' + $("#parish").val();
+			body += '\n Message : \n' + $("#msg").val();
+			$.ajax({
+                type: "POST",
+                url: "app/assets/ajax_interface.php",
+                data: {function: 'feedback', arguments: ['Churchlify','jelugbo@gmail.com',topic,body]}
+            }).done(function(res) {
+                        console.log(res);
+						!res.result.status ?  swal("Contact form!", res.result.status_msg, "warning"): swal("Contact form!", res.result.status_msg, "success");
+            })
+		});
+		
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                responsive:{
+                    0:{
+                        items:1
+                    }
+                }
+            })
+        </script>
+
+    </body>
+</html>

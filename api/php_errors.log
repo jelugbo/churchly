@@ -1,0 +1,54 @@
+[04-Oct-2017 12:35:22 America/Chicago] PHP Notice:  Undefined index: Salt in C:\apache\apache24\htdocs\church\api\index.php on line 2639
+[04-Oct-2017 12:35:22 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:35:22 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\api\index.php:0
+[04-Oct-2017 12:35:22 America/Chicago] PHP   2. Slim\App->run() C:\apache\apache24\htdocs\church\api\index.php:3111
+[04-Oct-2017 12:35:22 America/Chicago] PHP   3. Slim\App->process() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:298
+[04-Oct-2017 12:35:22 America/Chicago] PHP   4. Slim\App->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:337
+[04-Oct-2017 12:35:22 America/Chicago] PHP   5. Slim\App->Slim\{closure}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:35:22 America/Chicago] PHP   6. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:35:22 America/Chicago] PHP   7. Slim\DeferredCallable->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:35:22 America/Chicago] PHP   8. call_user_func_array:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:35:22 America/Chicago] PHP   9. Slim\Middleware\JwtAuthentication->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:35:22 America/Chicago] PHP  10. Slim\App->__invoke() C:\apache\apache24\htdocs\church\api\vendor\tuupola\slim-jwt-auth\src\JwtAuthentication.php:100
+[04-Oct-2017 12:35:22 America/Chicago] PHP  11. Slim\Route->run() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:443
+[04-Oct-2017 12:35:22 America/Chicago] PHP  12. Slim\Route->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:297
+[04-Oct-2017 12:35:22 America/Chicago] PHP  13. Slim\Route->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:35:22 America/Chicago] PHP  14. Slim\Handlers\Strategies\RequestResponse->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:325
+[04-Oct-2017 12:35:22 America/Chicago] PHP  15. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41
+[04-Oct-2017 12:35:22 America/Chicago] PHP  16. Closure->{closure:C:\apache\apache24\htdocs\church\api\index.php:2633-2659}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41
+[04-Oct-2017 12:53:11 America/Chicago] PHP Notice:  Undefined index: Salt in C:\apache\apache24\htdocs\church\api\index.php on line 2639
+[04-Oct-2017 12:53:11 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:53:11 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\api\index.php:0
+[04-Oct-2017 12:53:11 America/Chicago] PHP   2. Slim\App->run() C:\apache\apache24\htdocs\church\api\index.php:3111
+[04-Oct-2017 12:53:11 America/Chicago] PHP   3. Slim\App->process() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:298
+[04-Oct-2017 12:53:11 America/Chicago] PHP   4. Slim\App->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:337
+[04-Oct-2017 12:53:11 America/Chicago] PHP   5. Slim\App->Slim\{closure}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:53:11 America/Chicago] PHP   6. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:53:11 America/Chicago] PHP   7. Slim\DeferredCallable->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:53:11 America/Chicago] PHP   8. call_user_func_array:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:53:11 America/Chicago] PHP   9. Slim\Middleware\JwtAuthentication->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:53:11 America/Chicago] PHP  10. Slim\App->__invoke() C:\apache\apache24\htdocs\church\api\vendor\tuupola\slim-jwt-auth\src\JwtAuthentication.php:100
+[04-Oct-2017 12:53:11 America/Chicago] PHP  11. Slim\Route->run() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:443
+[04-Oct-2017 12:53:11 America/Chicago] PHP  12. Slim\Route->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:297
+[04-Oct-2017 12:53:11 America/Chicago] PHP  13. Slim\Route->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:53:11 America/Chicago] PHP  14. Slim\Handlers\Strategies\RequestResponse->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:325
+[04-Oct-2017 12:53:11 America/Chicago] PHP  15. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41
+[04-Oct-2017 12:53:11 America/Chicago] PHP  16. Closure->{closure:C:\apache\apache24\htdocs\church\api\index.php:2633-2659}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41
+[04-Oct-2017 12:53:20 America/Chicago] PHP Notice:  Undefined index: Salt in C:\apache\apache24\htdocs\church\api\index.php on line 2639
+[04-Oct-2017 12:53:20 America/Chicago] PHP Stack trace:
+[04-Oct-2017 12:53:20 America/Chicago] PHP   1. {main}() C:\apache\apache24\htdocs\church\api\index.php:0
+[04-Oct-2017 12:53:20 America/Chicago] PHP   2. Slim\App->run() C:\apache\apache24\htdocs\church\api\index.php:3111
+[04-Oct-2017 12:53:20 America/Chicago] PHP   3. Slim\App->process() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:298
+[04-Oct-2017 12:53:20 America/Chicago] PHP   4. Slim\App->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:337
+[04-Oct-2017 12:53:20 America/Chicago] PHP   5. Slim\App->Slim\{closure}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:53:20 America/Chicago] PHP   6. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:53:20 America/Chicago] PHP   7. Slim\DeferredCallable->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:67
+[04-Oct-2017 12:53:20 America/Chicago] PHP   8. call_user_func_array:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:53:20 America/Chicago] PHP   9. Slim\Middleware\JwtAuthentication->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\DeferredCallable.php:43
+[04-Oct-2017 12:53:20 America/Chicago] PHP  10. Slim\App->__invoke() C:\apache\apache24\htdocs\church\api\vendor\tuupola\slim-jwt-auth\src\JwtAuthentication.php:100
+[04-Oct-2017 12:53:20 America/Chicago] PHP  11. Slim\Route->run() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\App.php:443
+[04-Oct-2017 12:53:20 America/Chicago] PHP  12. Slim\Route->callMiddlewareStack() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:297
+[04-Oct-2017 12:53:20 America/Chicago] PHP  13. Slim\Route->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\MiddlewareAwareTrait.php:116
+[04-Oct-2017 12:53:20 America/Chicago] PHP  14. Slim\Handlers\Strategies\RequestResponse->__invoke() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Route.php:325
+[04-Oct-2017 12:53:20 America/Chicago] PHP  15. call_user_func:{C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41
+[04-Oct-2017 12:53:20 America/Chicago] PHP  16. Closure->{closure:C:\apache\apache24\htdocs\church\api\index.php:2633-2659}() C:\apache\apache24\htdocs\church\api\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php:41

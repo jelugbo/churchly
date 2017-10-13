@@ -1,0 +1,534 @@
+PayPal\Exception\PayPalConnectionException Object
+(
+    [url:PayPal\Exception\PayPalConnectionException:private] => https://api.sandbox.paypal.com/v1/payments/payment
+    [data:PayPal\Exception\PayPalConnectionException:private] => java.net.SocketTimeoutException: Read timed out
+    [message:protected] => Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment.
+    [string:Exception:private] => 
+    [code:protected] => 503
+    [file:protected] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php
+                    [line] => 73
+                    [function] => execute
+                    [class] => PayPal\Core\PayPalHttpConnection
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"123","first_name":"Ajibole","last_name":"Ole"}}]},"transactions":[{"amount":{"currency":"USD","total":"20"},"item_list":{"items":[{"name":"Offering","description":"Offering::20","currency":"USD","quantity":1,"price":"20"}]},"description":"Offering::20","invoice_number":"59bacd44e1c11"}]}
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php
+                    [line] => 102
+                    [function] => execute
+                    [class] => PayPal\Transport\PayPalRestCall
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => PayPal\Handler\RestHandler
+                                )
+
+                            [1] => /v1/payments/payment
+                            [2] => POST
+                            [3] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"123","first_name":"Ajibole","last_name":"Ole"}}]},"transactions":[{"amount":{"currency":"USD","total":"20"},"item_list":{"items":[{"name":"Offering","description":"Offering::20","currency":"USD","quantity":1,"price":"20"}]},"description":"Offering::20","invoice_number":"59bacd44e1c11"}]}
+                            [4] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php
+                    [line] => 565
+                    [function] => executeCall
+                    [class] => PayPal\Common\PayPalResourceModel
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => /v1/payments/payment
+                            [1] => POST
+                            [2] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"123","first_name":"Ajibole","last_name":"Ole"}}]},"transactions":[{"amount":{"currency":"USD","total":"20"},"item_list":{"items":[{"name":"Offering","description":"Offering::20","currency":"USD","quantity":1,"price":"20"}]},"description":"Offering::20","invoice_number":"59bacd44e1c11"}]}
+                            [3] => 
+                            [4] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31988
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505414469
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [5] => 
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\assets\common.php
+                    [line] => 211
+                    [function] => create
+                    [class] => PayPal\Api\Payment
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31988
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505414469
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\index.php
+                    [line] => 43
+                    [function] => doPayPal
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [item] => Offering
+                                            [amount] => 20
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [first_name] => Ajibole
+                                    [last_name] => Ole
+                                    [number] => 4242424242424242
+                                    [month] => 04
+                                    [year] => 2022
+                                    [cvv] => 123
+                                    [type] => Visa
+                                )
+
+                            [2] => 20
+                            [3] => Array
+                                (
+                                    [mode] => live
+                                    [clientid] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                    [clientsecret] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PayPal\Exception\PayPalConnectionException: Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment. in C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php on line <i>154</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0288</td><td bgcolor='#eeeeec' align='right'>250920</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>13.9654</td><td bgcolor='#eeeeec' align='right'>439760</td><td bgcolor='#eeeeec'>doPayPal( ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>43</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>19.2207</td><td bgcolor='#eeeeec' align='right'>692840</td><td bgcolor='#eeeeec'>PayPal\Api\Payment->create( ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\hellopay\assets\common.php' bgcolor='#eeeeec'>..\common.php<b>:</b>211</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>19.2223</td><td bgcolor='#eeeeec' align='right'>694312</td><td bgcolor='#eeeeec'>PayPal\Common\PayPalResourceModel::executeCall( ???, ???, ???, ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php' bgcolor='#eeeeec'>..\Payment.php<b>:</b>565</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>19.2382</td><td bgcolor='#eeeeec' align='right'>732096</td><td bgcolor='#eeeeec'>PayPal\Transport\PayPalRestCall->execute( ???, ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php' bgcolor='#eeeeec'>..\PayPalResourceModel.php<b>:</b>102</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>19.8344</td><td bgcolor='#eeeeec' align='right'>771136</td><td bgcolor='#eeeeec'>PayPal\Core\PayPalHttpConnection->execute( ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php' bgcolor='#eeeeec'>..\PayPalRestCall.php<b>:</b>73</td></tr>
+
+)
+PayPal\Exception\PayPalConnectionException Object
+(
+    [url:PayPal\Exception\PayPalConnectionException:private] => https://api.sandbox.paypal.com/v1/payments/payment
+    [data:PayPal\Exception\PayPalConnectionException:private] => java.net.SocketTimeoutException: Read timed out
+    [message:protected] => Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment.
+    [string:Exception:private] => 
+    [code:protected] => 503
+    [file:protected] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php
+                    [line] => 73
+                    [function] => execute
+                    [class] => PayPal\Core\PayPalHttpConnection
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"07","expire_year":"2022","cvv2":"333","first_name":"Tunde","last_name":"Baba"}}]},"transactions":[{"amount":{"currency":"USD","total":"30"},"item_list":{"items":[{"name":"Offering","description":"Offering::30","currency":"USD","quantity":1,"price":"30"}]},"description":"Offering::30","invoice_number":"59bacf9f35882"}]}
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php
+                    [line] => 102
+                    [function] => execute
+                    [class] => PayPal\Transport\PayPalRestCall
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => PayPal\Handler\RestHandler
+                                )
+
+                            [1] => /v1/payments/payment
+                            [2] => POST
+                            [3] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"07","expire_year":"2022","cvv2":"333","first_name":"Tunde","last_name":"Baba"}}]},"transactions":[{"amount":{"currency":"USD","total":"30"},"item_list":{"items":[{"name":"Offering","description":"Offering::30","currency":"USD","quantity":1,"price":"30"}]},"description":"Offering::30","invoice_number":"59bacf9f35882"}]}
+                            [4] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php
+                    [line] => 565
+                    [function] => executeCall
+                    [class] => PayPal\Common\PayPalResourceModel
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => /v1/payments/payment
+                            [1] => POST
+                            [2] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"07","expire_year":"2022","cvv2":"333","first_name":"Tunde","last_name":"Baba"}}]},"transactions":[{"amount":{"currency":"USD","total":"30"},"item_list":{"items":[{"name":"Offering","description":"Offering::30","currency":"USD","quantity":1,"price":"30"}]},"description":"Offering::30","invoice_number":"59bacf9f35882"}]}
+                            [3] => 
+                            [4] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31385
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505415071
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [5] => 
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\assets\common.php
+                    [line] => 211
+                    [function] => create
+                    [class] => PayPal\Api\Payment
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31385
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505415071
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\index.php
+                    [line] => 43
+                    [function] => doPayPal
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [item] => Offering
+                                            [amount] => 30
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [first_name] => Tunde
+                                    [last_name] => Baba
+                                    [number] => 4242424242424242
+                                    [month] => 07
+                                    [year] => 2022
+                                    [cvv] => 333
+                                    [type] => Visa
+                                )
+
+                            [2] => 30
+                            [3] => Array
+                                (
+                                    [mode] => live
+                                    [clientid] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                    [clientsecret] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PayPal\Exception\PayPalConnectionException: Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment. in C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php on line <i>154</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0213</td><td bgcolor='#eeeeec' align='right'>253960</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>8.2120</td><td bgcolor='#eeeeec' align='right'>433056</td><td bgcolor='#eeeeec'>doPayPal( ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>43</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>8.2344</td><td bgcolor='#eeeeec' align='right'>679512</td><td bgcolor='#eeeeec'>PayPal\Api\Payment->create( ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\hellopay\assets\common.php' bgcolor='#eeeeec'>..\common.php<b>:</b>211</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>8.2355</td><td bgcolor='#eeeeec' align='right'>680984</td><td bgcolor='#eeeeec'>PayPal\Common\PayPalResourceModel::executeCall( ???, ???, ???, ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php' bgcolor='#eeeeec'>..\Payment.php<b>:</b>565</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>8.2445</td><td bgcolor='#eeeeec' align='right'>718768</td><td bgcolor='#eeeeec'>PayPal\Transport\PayPalRestCall->execute( ???, ???, ???, ???, ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php' bgcolor='#eeeeec'>..\PayPalResourceModel.php<b>:</b>102</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>8.9179</td><td bgcolor='#eeeeec' align='right'>757728</td><td bgcolor='#eeeeec'>PayPal\Core\PayPalHttpConnection->execute( ??? )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php' bgcolor='#eeeeec'>..\PayPalRestCall.php<b>:</b>73</td></tr>
+
+)
+PayPal\Exception\PayPalConnectionException Object
+(
+    [url:PayPal\Exception\PayPalConnectionException:private] => https://api.sandbox.paypal.com/v1/payments/payment
+    [data:PayPal\Exception\PayPalConnectionException:private] => java.net.SocketTimeoutException: Read timed out
+    [message:protected] => Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment.
+    [string:Exception:private] => 
+    [code:protected] => 503
+    [file:protected] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php
+                    [line] => 73
+                    [function] => execute
+                    [class] => PayPal\Core\PayPalHttpConnection
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"222","first_name":"Alli","last_name":"Dele"}}]},"transactions":[{"amount":{"currency":"USD","total":"10"},"item_list":{"items":[{"name":"Tithe","description":"Tithe::10","currency":"USD","quantity":1,"price":"10"}]},"description":"Tithe::10","invoice_number":"59bad0e6028d7"}]}
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php
+                    [line] => 102
+                    [function] => execute
+                    [class] => PayPal\Transport\PayPalRestCall
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => PayPal\Handler\RestHandler
+                                )
+
+                            [1] => /v1/payments/payment
+                            [2] => POST
+                            [3] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"222","first_name":"Alli","last_name":"Dele"}}]},"transactions":[{"amount":{"currency":"USD","total":"10"},"item_list":{"items":[{"name":"Tithe","description":"Tithe::10","currency":"USD","quantity":1,"price":"10"}]},"description":"Tithe::10","invoice_number":"59bad0e6028d7"}]}
+                            [4] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php
+                    [line] => 565
+                    [function] => executeCall
+                    [class] => PayPal\Common\PayPalResourceModel
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => /v1/payments/payment
+                            [1] => POST
+                            [2] => {"intent":"sale","payer":{"payment_method":"credit_card","funding_instruments":[{"payment_card":{"type":"Visa","billing_country":"US","number":"4242424242424242","expire_month":"04","expire_year":"2022","cvv2":"222","first_name":"Alli","last_name":"Dele"}}]},"transactions":[{"amount":{"currency":"USD","total":"10"},"item_list":{"items":[{"name":"Tithe","description":"Tithe::10","currency":"USD","quantity":1,"price":"10"}]},"description":"Tithe::10","invoice_number":"59bad0e6028d7"}]}
+                            [3] => 
+                            [4] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31057
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505415399
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [5] => 
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\assets\common.php
+                    [line] => 211
+                    [function] => create
+                    [class] => PayPal\Api\Payment
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => PayPal\Rest\ApiContext Object
+                                (
+                                    [requestId:PayPal\Rest\ApiContext:private] => 
+                                    [credential:PayPal\Rest\ApiContext:private] => PayPal\Auth\OAuthTokenCredential Object
+                                        (
+                                            [clientId:PayPal\Auth\OAuthTokenCredential:private] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                            [clientSecret:PayPal\Auth\OAuthTokenCredential:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                            [accessToken:PayPal\Auth\OAuthTokenCredential:private] => A21AAEtravyh1_72eOFjsaHE9BbX9F-5EgqC-SLDVh8bpbGwgDppE3wMk6zXAVsd_Mg6-o79m0OvraKU2wb6QnRdwT-5949aw
+                                            [tokenExpiresIn:PayPal\Auth\OAuthTokenCredential:private] => 31057
+                                            [tokenCreateTime:PayPal\Auth\OAuthTokenCredential:private] => 1505415399
+                                            [cipher:PayPal\Auth\OAuthTokenCredential:private] => PayPal\Security\Cipher Object
+                                                (
+                                                    [secretKey:PayPal\Security\Cipher:private] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                                )
+
+                                            [_propMap:PayPal\Common\PayPalModel:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => C:\apache\apache24\htdocs\church\hellopay\index.php
+                    [line] => 43
+                    [function] => doPayPal
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [item] => Tithe
+                                            [amount] => 10
+                                        )
+
+                                )
+
+                            [1] => Array
+                                (
+                                    [first_name] => Alli
+                                    [last_name] => Dele
+                                    [number] => 4242424242424242
+                                    [month] => 04
+                                    [year] => 2022
+                                    [cvv] => 222
+                                    [type] => Visa
+                                )
+
+                            [2] => 10
+                            [3] => Array
+                                (
+                                    [mode] => live
+                                    [clientid] => AQacmhAypefG2K8rGx4cp0M7r8ajohsPDDp8SlHEI4xl-DDngIKlm1IAmJXRIK_JPmS533vpjR_cm5WY
+                                    [clientsecret] => EPmVLbsIC3yXrpPCJpkqW2IY47cCES7X4Nz26rYs0ChG7D9VppSLl-cRBdFkRiRNFlw87ShpQWXqkUCf
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PayPal\Exception\PayPalConnectionException: Got Http response code 503 when accessing https://api.sandbox.paypal.com/v1/payments/payment. in C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Core\PayPalHttpConnection.php on line <i>154</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.2065</td><td bgcolor='#eeeeec' align='right'>253648</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.2292</td><td bgcolor='#eeeeec' align='right'>419984</td><td bgcolor='#eeeeec'>doPayPal(  )</td><td title='C:\apache\apache24\htdocs\church\hellopay\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>43</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.2542</td><td bgcolor='#eeeeec' align='right'>666472</td><td bgcolor='#eeeeec'>PayPal\Api\Payment->create(  )</td><td title='C:\apache\apache24\htdocs\church\hellopay\assets\common.php' bgcolor='#eeeeec'>..\common.php<b>:</b>211</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.2548</td><td bgcolor='#eeeeec' align='right'>667936</td><td bgcolor='#eeeeec'>PayPal\Common\PayPalResourceModel::executeCall(  )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Api\Payment.php' bgcolor='#eeeeec'>..\Payment.php<b>:</b>565</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.2654</td><td bgcolor='#eeeeec' align='right'>705720</td><td bgcolor='#eeeeec'>PayPal\Transport\PayPalRestCall->execute(  )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Common\PayPalResourceModel.php' bgcolor='#eeeeec'>..\PayPalResourceModel.php<b>:</b>102</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>2.2292</td><td bgcolor='#eeeeec' align='right'>744680</td><td bgcolor='#eeeeec'>PayPal\Core\PayPalHttpConnection->execute(  )</td><td title='C:\apache\apache24\htdocs\church\api\vendor\paypal\rest-api-sdk-php\lib\PayPal\Transport\PayPalRestCall.php' bgcolor='#eeeeec'>..\PayPalRestCall.php<b>:</b>73</td></tr>
+
+)
